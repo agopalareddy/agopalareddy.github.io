@@ -15,7 +15,7 @@ url: https://aadarsha2002.github.io # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. "/blog"
 repository: "aadarsha2002.github.io"
 teaser: # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs: false # true, false (default)
+breadcrumbs: true # true, false (default)
 words_per_minute: 160
 future: true
 read_more: "disabled" # if enabled, adds "Read more" links to excerpts
@@ -78,14 +78,14 @@ analytics:
 
 # Site Author
 author:
-  name: "Your Sidebar Name"
+  name: "Aadarsha Gopala Reddy"
   avatar: "profile.png"
-  bio: "Your biography for the left-hand sidebar"
-  location: "Location"
-  employer:
-  pubmed: "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar: "http://yourfullgooglescholarurl.com"
-  email:
+  bio: "Data Analyst & Software Engineer"
+  location: "Boca Raton, Florida, USA"
+  employer: "Lab714"
+  pubmed:
+  googlescholar:
+  email: "adurs2002@gmail.com"
   researchgate: # example: "https://www.researchgate.net/profile/yourprofile"
   uri:
   bitbucket:
@@ -94,20 +94,20 @@ author:
   flickr:
   facebook:
   foursquare:
-  github: "academicpages"
+  github: "aadarsha2002"
   google_plus:
   keybase:
-  instagram:
+  instagram: "adurs2002"
   impactstory: #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm:
-  linkedin:
-  orcid: "http://orcid.org/yourorcidurl"
+  linkedin: "aadarsha2002"
+  orcid:
   pinterest:
   soundcloud:
   stackoverflow: # http://stackoverflow.com/users/123456/username
-  steam:
+  steam: "adurs2002"
   tumblr:
-  twitter: "replacethistwitterhandle"
+  twitter:
   vine:
   weibo:
   xing:
