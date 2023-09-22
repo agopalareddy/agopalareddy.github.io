@@ -5,8 +5,6 @@ permalink: /projects/
 author_profile: true
 ---
 
-# My Projects
-
 ## Artificial Intelligence in Modern Board Games
 
 I worked under Dr. Sean T. McCulloch at Ohio Wesleyan University during the summer of 2022. I programmed the card game Lost Cities using Java and implemented an intelligent agent that could play the game. In testing, the agent won 13 out of 18 games.
