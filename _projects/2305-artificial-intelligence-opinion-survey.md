@@ -6,6 +6,7 @@ excerpt: 'Conducted survey research of 1000 employees to analyze AI's impact on 
 venue: 'Ohio Wesleyan University'
 term: 'Spring 2023'
 ---
+
 Under the mentorship of Dr. Nicholas Dietrich, we conducted a research project on the impact of artificial intelligence (AI) on the work of employees in four industries: education, IT/STEM, retail, and healthcare.
 
 #### Data Collection

@@ -6,6 +6,7 @@ excerpt: 'Developed AIParkinScan software for Parkinson\'s diagnosis using audio
 venue: 'Ohio Wesleyan University'
 term: 'Summer 2023'
 ---
+
 Part of MITxSureStart FutureMakers Create-a-Thon Program.
 Developed AIParkinScan software for Parkinson's diagnosis using audio and image data.
 Utilized neural networks, spectrograms, and Random Forest algorithm.
