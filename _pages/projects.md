@@ -7,6 +7,10 @@ author_profile: true
 
 {% include base_path %}
 
+{% for post in site.projects reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+
 ## Artificial Intelligence Opinion Survey
 ---
 Under the mentorship of Dr. Nicholas Dietrich, we conducted a research project on the impact of artificial intelligence (AI) on the work of employees in four industries: education, IT/STEM, retail, and healthcare.
