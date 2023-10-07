@@ -1,5 +1,5 @@
 ---
-title: "Artificial Intelligence Opinion Survey"
+title: "Artificial Intelligence in Modern Board Games"
 collection: projects
 permalink: /projects/su22-artificial-intelligence-in-modern-board-games
 excerpt: 'Developed an AI opponent for the card game Lost Cities using object oriented principles in Java.'
