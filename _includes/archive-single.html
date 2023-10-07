@@ -11,7 +11,7 @@
 {% else %}
 {% assign title = post.title %}
 {% endif %}
-{% assign title = post.title %}
+
 <div class="{{ include.type | default: " list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
@@ -29,7 +29,7 @@
       <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
-
+    <p>This is the title {{ title }} </p>
     {% if post.read_time %}
     <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
