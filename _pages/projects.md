@@ -5,9 +5,7 @@ permalink: /projects/
 author_profile: true
 ---
 
-<details>
-<summary><b>Artificial Intelligence Opinion Survey</b></summary>
-
+## Artificial Intelligence Opinion Survey
 ---
 Under the mentorship of Dr. Nicholas Dietrich, we conducted a research project on the impact of artificial intelligence (AI) on the work of employees in four industries: education, IT/STEM, retail, and healthcare.
 
@@ -31,11 +29,8 @@ We presented our preliminary results at the OWU Spring Science Symposium. Our re
 ### Links
 
 - [GitHub Repository](https://github.com/Aadarsha2002/DATA490)
-</details>
 
-<details>
-<summary><b>Connect 4 AI</b></summary>
-
+## Connect 4 AI
 ---
 We programmed a Connect 4 game in Java. It features a single player mode against an AI opponent and a multiplayer mode for two human players. The AI uses the alpha-beta pruning algorithm to make challenging moves that will test players of all skill levels.
 
@@ -51,11 +46,8 @@ We programmed a Connect 4 game in Java. It features a single player mode against
 ### Links
 
 - [GitHub Repository](https://github.com/Aadarsha2002/CS340Final-Connect4)
-</details>
 
-<details>
-<summary><b>Artificial Intelligence in Modern Board Games</b></summary>
-
+## Artificial Intelligence in Modern Board Games
 ---
 I worked under Dr. Sean T. McCulloch at Ohio Wesleyan University during the summer of 2022. I programmed the card game Lost Cities using Java and implemented an intelligent agent that could play the game. In testing, the agent won 13 out of 18 games.
 
@@ -72,11 +64,8 @@ I worked under Dr. Sean T. McCulloch at Ohio Wesleyan University during the summ
 ### Links
 
 - [GitHub Repository](https://github.com/Aadarsha2002/LostCities)
-</details>
 
-<details>
-<summary><b>AIParkinScan</b></summary>
-
+## AIParkinScan
 ---
 Part of MITxSureStart FutureMakers Create-a-Thon Program.
 Developed AIParkinScan software for Parkinson's diagnosis using audio and image data.
@@ -94,4 +83,3 @@ Utilized neural networks, spectrograms, and Random Forest algorithm.
 
 - [GitHub Repository](https://github.com/Aadarsha2002/AIPS)
 - [Presentation (download pptx)](https://docs.google.com/presentation/d/10910WNa3CjiXIcH_T5OIXyOuOTiVKFHr/export/pptx)
-</details>
