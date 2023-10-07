@@ -3,7 +3,8 @@ title: "Artificial Intelligence Opinion Survey"
 collection: projects
 permalink: /projects/sp23-artificial-intelligence-opinion-survey
 excerpt: 'Research on the impact of artificial intelligence (AI) on the work of employees in four industries: education, IT/STEM, retail, and healthcare.'
-date: Spring 2023
+venue: 'Ohio Wesleyan University'
+term: 'Spring 2023'
 ---
 Under the mentorship of Dr. Nicholas Dietrich, we conducted a research project on the impact of artificial intelligence (AI) on the work of employees in four industries: education, IT/STEM, retail, and healthcare.
 
