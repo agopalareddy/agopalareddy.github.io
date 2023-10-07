@@ -1,5 +1,5 @@
 ---
-title: "AIParkinScan"
+title: 'AIParkinScan'
 collection: projects
 permalink: /projects/su23-aiparkinscan
 excerpt: 'Developed AIParkinScan software for Parkinson\'s diagnosis using audio and image data. Utilized neural networks, spectrograms, and Random Forest algorithm.'
