@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-As a data analyst at Lab714, I develop software that works with proprietary IoT devices to extract, organize, and analyze data. I generate meaningful client-facing results from the data, which create significant cost savings. I use React.js and AWS to create user-friendly interfaces and dashboards for data visualization and interaction.
+As a data analyst intern at Lab714, I develop software that works with proprietary IoT devices to extract, organize, and analyze data. I generate meaningful client-facing results from the data, which create significant cost savings. I use React and AWS to create user-friendly interfaces and dashboards for data visualization and interaction.
 
 # Background
 
