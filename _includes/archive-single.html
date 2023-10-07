@@ -10,9 +10,9 @@ This file contains the HTML code for a single post in an archive. It includes th
 {% endif %}
 
 {% if post.id %}
-{% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% assign title = layout.title | markdownify | remove: "<p>" | remove: "</p>" %}
 {% else %}
-{% assign title = post.title %}
+{% assign title = layout.title %}
 {% endif %}
 
 <div class="{{ include.type | default: " list" }}__item">
