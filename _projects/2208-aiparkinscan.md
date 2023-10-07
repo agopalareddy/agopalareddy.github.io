@@ -1,7 +1,7 @@
 ---
 title: 'AIParkinScan'
 collection: projects
-permalink: /projects/su23-aiparkinscan
+permalink: /projects/2208-aiparkinscan
 excerpt: 'Developed AIParkinScan software for Parkinson\'s diagnosis using audio and image data. Utilized neural networks, spectrograms, and Random Forest algorithm.'
 venue: 'Ohio Wesleyan University'
 term: 'Summer 2023'

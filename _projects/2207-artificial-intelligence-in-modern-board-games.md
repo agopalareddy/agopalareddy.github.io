@@ -1,7 +1,7 @@
 ---
 title: "Artificial Intelligence in Modern Board Games"
 collection: projects
-permalink: /projects/su22-artificial-intelligence-in-modern-board-games
+permalink: /projects/2207-artificial-intelligence-in-modern-board-games
 excerpt: 'Developed an AI opponent for the card game Lost Cities using object oriented principles in Java.'
 venue: 'Ohio Wesleyan University'
 term: 'Summer 2022'

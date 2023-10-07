@@ -1,7 +1,7 @@
 ---
 title: "Connect 4 AI"
 collection: projects
-permalink: /projects/fa22-connect-4-ai
+permalink: /projects/2212-connect-4-ai
 excerpt: 'Developed an AI opponent for Connect 4 using alpha-beta pruning algorithm.'
 venue: 'Ohio Wesleyan University'
 term: 'Fall 2022'

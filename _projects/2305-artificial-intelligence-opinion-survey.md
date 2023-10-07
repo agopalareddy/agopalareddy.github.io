@@ -1,7 +1,7 @@
 ---
 title: "Artificial Intelligence Opinion Survey"
 collection: projects
-permalink: /projects/sp23-artificial-intelligence-opinion-survey
+permalink: /projects/2305-artificial-intelligence-opinion-survey
 excerpt: 'Conducted survey research of 1000 employees to analyze AI's impact on work efficiency and attitudes. Found AI improved efficiency across industries.'
 venue: 'Ohio Wesleyan University'
 term: 'Spring 2023'
