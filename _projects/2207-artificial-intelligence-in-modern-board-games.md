@@ -7,7 +7,7 @@ venue: "Ohio Wesleyan University"
 term: "Summer 2022"
 ---
 
-***Ohio Wesleyan University, Summer 2022***
+**_Ohio Wesleyan University, Summer 2022_**
 
 I worked under Dr. Sean T. McCulloch at Ohio Wesleyan University during the summer of 2022. I programmed the card game Lost Cities using Java and implemented an intelligent agent that could play the game. In testing, the agent won 13 out of 18 games.
 
