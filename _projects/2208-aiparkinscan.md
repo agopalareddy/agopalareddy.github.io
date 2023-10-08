@@ -4,7 +4,7 @@ excerpt: "Developed AIParkinScan software for Parkinson's diagnosis using audio 
 collection: projects
 permalink: /projects/2208-aiparkinscan
 venue: 'Ohio Wesleyan University'
-term: 'Summer 2023'
+term: 'Summer 2022'
 ---
 
 Part of MITxSureStart FutureMakers Create-a-Thon Program.
