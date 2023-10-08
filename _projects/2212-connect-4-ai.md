@@ -7,6 +7,8 @@ venue: "Ohio Wesleyan University"
 term: "Fall 2022"
 ---
 
+***Ohio Wesleyan University, Fall 2022***
+
 A team of 3 students, we developed a Connect 4 game in Java with both single player and multiplayer modes. The single player mode allows a human to play against an AI opponent that uses the alpha-beta pruning algorithm to make strategic moves at various difficulty levels. The multiplayer mode enables two human players to compete against each other.
 
 ### Technologies Used

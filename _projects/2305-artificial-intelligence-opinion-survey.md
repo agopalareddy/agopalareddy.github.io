@@ -7,7 +7,7 @@ venue: "Ohio Wesleyan University"
 term: "Spring 2023"
 ---
 
-## Artificial Intelligence Opinion Survey
+***Ohio Wesleyan University, Spring 2023***
 
 As a team of 5, we conducted a research project to analyze the impact of artificial intelligence (AI) on the work of employees in four industries: education, IT/STEM, retail, and healthcare. Our project was conducted under the mentorship of Dr. Nicholas Dietrich.
 
