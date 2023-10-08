@@ -2,12 +2,12 @@
 title: "Connect 4 AI"
 collection: projects
 permalink: /projects/2212-connect-4-ai
-excerpt: "Developed an AI opponent for Connect 4 using alpha-beta pruning algorithm."
+excerpt: "Co-developed an AI opponent for Connect 4 using alpha-beta pruning algorithm."
 venue: "Ohio Wesleyan University"
 term: "Fall 2022"
 ---
 
-We programmed a Connect 4 game in Java. It features a single player mode against an AI opponent and a multiplayer mode for two human players. The AI uses the alpha-beta pruning algorithm to make challenging moves that will test players of all skill levels.
+A team of 3 students, we developed a Connect 4 game in Java with both single player and multiplayer modes. The single player mode allows a human to play against an AI opponent that uses the alpha-beta pruning algorithm to make strategic moves at various difficulty levels. The multiplayer mode enables two human players to compete against each other.
 
 ### Technologies Used
 

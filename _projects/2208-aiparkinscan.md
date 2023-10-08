@@ -1,15 +1,13 @@
 ---
 title: "AIParkinScan"
-excerpt: "Developed AIParkinScan software for Parkinson's diagnosis using audio and image data. Utilized neural networks, spectrograms, and Random Forest algorithm."
 collection: projects
 permalink: /projects/2208-aiparkinscan
-venue: 'Ohio Wesleyan University'
-term: 'Summer 2022'
+excerpt: "Co-developed AIParkinScan software for Parkinson's diagnosis using audio and image data. Utilized neural networks, spectrograms, and Random Forest algorithm."
+venue: "MITxSureStart FutureMakers Create-a-Thon Program"
+term: "Summer 2022"
 ---
 
-Part of MITxSureStart FutureMakers Create-a-Thon Program.
-Developed AIParkinScan software for Parkinson's diagnosis using audio and image data.
-Utilized neural networks, spectrograms, and Random Forest algorithm.
+Project part of the MITxSureStart FutureMakers Create-a-Thon Program. In a team of 4, co-developed AIParkinScan software for Parkinson's diagnosis using audio and image data. We utilized neural networks, spectrograms, and the Random Forest algorithm.
 
 ### Technologies Used
 

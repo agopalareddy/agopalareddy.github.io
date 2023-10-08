@@ -1,13 +1,15 @@
 ---
 title: "Artificial Intelligence Opinion Survey"
-excerpt: "Conducted survey research of 1000 employees to analyze AI's impact on work efficiency and attitudes. Found AI improved efficiency across industries."
 collection: projects
 permalink: /projects/2305-artificial-intelligence-opinion-survey
-venue: 'Ohio Wesleyan University'
-term: 'Spring 2023'
+excerpt: "Conducted survey research of 1000 employees to analyze AI's impact on work efficiency and attitudes. Found AI improved efficiency across industries."
+venue: "Ohio Wesleyan University"
+term: "Spring 2023"
 ---
 
-Under the mentorship of Dr. Nicholas Dietrich, we conducted a research project on the impact of artificial intelligence (AI) on the work of employees in four industries: education, IT/STEM, retail, and healthcare.
+## Artificial Intelligence Opinion Survey
+
+As a team of 5, we conducted a research project to analyze the impact of artificial intelligence (AI) on the work of employees in four industries: education, IT/STEM, retail, and healthcare. Our project was conducted under the mentorship of Dr. Nicholas Dietrich.
 
 ### Data Collection
 
@@ -17,9 +19,9 @@ We collected data from 250 employees in each industry using Prolific, a crowdsou
 
 We analyzed the data using Tableau dashboards and R. The visualizations allowed us to identify trends and common opinions.
 
-### Preliminary Results
+### Results
 
-We presented our preliminary results at the OWU Spring Science Symposium. Our results showed that AI has had a positive impact on the work of employees in all four industries. Employees reported that AI can make their work more efficient. Most reported that AI can perform most of their job functions and saves them some time and energy.
+Our results showed that AI has had a positive impact on the work of employees in all four industries. Employees reported that AI can make their work more efficient. Most reported that AI can perform most of their job functions and saves them some time and energy. A peer and I presented our preliminary findings at the 2023 Spring Student Symposium at Ohio Wesleyan University.
 
 ### Technologies Used
 
