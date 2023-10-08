@@ -5,6 +5,7 @@ permalink: /projects/2208-aiparkinscan
 excerpt: "Co-developed AIParkinScan software for Parkinson's diagnosis using audio and image data. Utilized neural networks, spectrograms, and Random Forest algorithm."
 venue: "MITxSureStart FutureMakers Create-a-Thon Program"
 term: "Summer 2022"
+last_modified_at: 2023-10-08 18:10:08
 ---
 
 ***Ohio Wesleyan University, Summer 2022***

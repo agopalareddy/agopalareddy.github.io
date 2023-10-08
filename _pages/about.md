@@ -6,6 +6,7 @@ author_profile: true
 redirect_from:
   - /about/
   - /about.html
+last_modified_at: 2023-10-08 18:10:51
 ---
 
 As a data analyst intern at Lab714, I develop software that works with proprietary IoT devices to extract, organize, and analyze data. I generate meaningful client-facing results from the data, which create significant cost savings. I use React and AWS to create user-friendly interfaces and dashboards for data visualization and interaction.

@@ -5,6 +5,7 @@ permalink: /projects/2212-connect-4-ai
 excerpt: "Co-developed an AI opponent for Connect 4 using alpha-beta pruning algorithm."
 venue: "Ohio Wesleyan University"
 term: "Fall 2022"
+last_modified_at: 2023-10-08 18:10:08
 ---
 
 ***Ohio Wesleyan University, Fall 2022***

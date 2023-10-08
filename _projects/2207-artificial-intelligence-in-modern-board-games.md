@@ -5,6 +5,7 @@ permalink: /projects/2207-artificial-intelligence-in-modern-board-games
 excerpt: "Developed an AI opponent for the card game Lost Cities using object oriented principles in Java."
 venue: "Ohio Wesleyan University"
 term: "Summer 2022"
+last_modified_at: 2023-10-08 18:10:08
 ---
 
 **_Ohio Wesleyan University, Summer 2022_**
