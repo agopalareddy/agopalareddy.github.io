@@ -33,17 +33,27 @@ This file contains the HTML code for a single post in an archive. It includes th
       <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
-    
+
     {% if post.read_time %}
     <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
 
     {% if post.collection == 'teaching' %}
     <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+    {% elsif post.collection == 'projects' %}
+    <p><i>{{ post.venue }}</i>, {% assign month = post.date | slice: 5, 2 %}
+      {% case month %}
+      {% when '01' or '02' or '03' or '04' %}
+      Spring
+      {% when '05' or '06' or '07' %}
+      Summer
+      {% when '08' or '09' or '10' or '11' %}
+      Fall
+      {% when '12' %}
+      Winter
+      {% endcase %} {% assign year = post.date | slice: 0, 4 %}{{year}}</p>
     {% elsif post.collection == 'publications' %}
     <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-    {% elsif post.collection == 'projects' %}
-    <p><i>{{ post.venue }}</i>, {{ post.term | default: ""}} </p>
     {% elsif post.date %}
     <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{
         site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time
