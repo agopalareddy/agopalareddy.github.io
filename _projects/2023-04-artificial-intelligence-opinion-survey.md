@@ -1,11 +1,11 @@
 ---
+date: 2023-04-30
 title: "Artificial Intelligence Opinion Survey"
 collection: projects
-permalink: /projects/2305-artificial-intelligence-opinion-survey
-excerpt: "Designed, fielded, and investigated a survey research of 1000 employees to analyze AI's impact on work efficiency and attitudes. Found AI improved efficiency across industries."
+permalink: /projects/2023-04-artificial-intelligence-opinion-survey
+excerpt: "Designed, fielded, and investigated a survey research of 1000 employees to analyze AI&apos;s impact on work efficiency and attitudes. Found AI improved efficiency across industries."
 venue: "Ohio Wesleyan University"
-date: 2023-04-30
-last_modified_at: 2023-10-08 18:10:08
+last_modified_at: 2023-10-23 22:19:33
 ---
 
 As a team of 5, we conducted a research project to analyze the impact of artificial intelligence (AI) on the work of employees in four industries: education, IT/STEM, retail, and healthcare. Our project was conducted under the mentorship of Dr. Nicholas Dietrich.
