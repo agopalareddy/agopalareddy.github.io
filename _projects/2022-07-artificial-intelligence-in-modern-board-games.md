@@ -23,3 +23,6 @@ I worked under Dr. Sean T. McCulloch at Ohio Wesleyan University during the summ
 ### Links
 
 - [GitHub Repository](https://github.com/Aadarsha2002/LostCities)
+- [OWU Make The Connection Release](https://www.owu.edu/news-media/details/a-better-bot/)
+- [OWU 30th annual Patricia Belt Conrades Summer Science Research Symposium Press Release](https://www.owu.edu/news-media/details/plunging-in/)
+- [SSRP Abstract](https://www.owu.edu/about/offices-services-directory/academic-affairs/academic-resources/summer-science-research-program/symposium/2022-abstracts/abstract-board-12/)

@@ -12,12 +12,12 @@ A team of 3 students, we developed a Connect 4 game in Java with both single pla
 
 ### Technologies Used
 
-- Java
-- Artificial Intelligence
 - Teamwork
+- Java
 - Object Oriented Programming
-- Git
+- Artificial Intelligence
 - Board Games
+- Git
 
 ### Links
 
