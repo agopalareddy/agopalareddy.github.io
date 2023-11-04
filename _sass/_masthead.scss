@@ -6,10 +6,11 @@
   position: relative;
   border-bottom: 1px solid $border-color;
   -webkit-animation: intro 0.3s both;
-          animation: intro 0.3s both;
+  animation: intro 0.3s both;
   -webkit-animation-delay: 0.15s;
-          animation-delay: 0.15s;
+  animation-delay: 0.15s;
   z-index: 20;
+  background: $lighter-gray;
 
   &__inner-wrap {
     @include container;
@@ -32,7 +33,7 @@
 }
 
 .masthead__menu {
-
+  background: $lighter-gray;
   ul {
     margin: 0;
     padding: 0;
@@ -42,6 +43,7 @@
 }
 
 .masthead__menu-item {
+  background: $lighter-gray;
   display: block;
   list-style-type: none;
   white-space: nowrap;
