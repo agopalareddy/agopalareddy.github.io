@@ -94,6 +94,9 @@
     @include breakpoint($large) {
       padding: 5px;
       border: 1px solid $border-color;
+      @media (prefers-color-scheme: dark) {
+        border: 1px solid $border-color-dm;
+      }
     }
   }
 }
@@ -155,7 +158,14 @@
   }
 
   button {
+    cursor: pointer;
     margin-bottom: 0;
+    outline: none;
+    background: $primary-color;
+    color: white;
+    @media (prefers-color-scheme: dark) {
+      background: mix(black, $primary-color-dm, 40%);
+    }
 
     @include breakpoint($large) {
       display: none;
@@ -172,10 +182,14 @@
   list-style-type: none;
   border: 1px solid $border-color;
   border-radius: $border-radius;
-  background: #fff;
+  background: white;
   z-index: -1;
-  box-shadow: 0 0 10px rgba(#000, 0.25);
+  box-shadow: 0 0 10px rgba(black, 0.25);
   cursor: default;
+  @media (prefers-color-scheme: dark) {
+    border: 1px solid $border-color-dm;
+    background: $darker-gray;
+  }
 
   @include breakpoint($large) {
     display: block;
@@ -196,9 +210,11 @@
     width: 0;
     border-style: solid;
     border-width: 0 10px 10px;
-    border-color: $border-color transparent;
     z-index: 0;
-
+    border-color: $border-color transparent;
+    @media (prefers-color-scheme: dark) {
+      border-color: $border-color-dm transparent;
+    }
     @include breakpoint($large) {
       display: none;
     }
@@ -213,8 +229,11 @@
     width: 0;
     border-style: solid;
     border-width: 0 10px 10px;
-    border-color: #fff transparent;
     z-index: 1;
+    border-color: white transparent;
+    @media (prefers-color-scheme: dark) {
+      border-color: $darker-gray transparent;
+    }
 
     @include breakpoint($large) {
       display: none;
@@ -237,6 +256,10 @@
 
     &:hover {
       text-decoration: underline;
+      color: $masthead-link-color-hover;
+      @media (prefers-color-scheme: dark) {
+        color: $masthead-link-color-hover-dm;
+      }
     }
   }
 }

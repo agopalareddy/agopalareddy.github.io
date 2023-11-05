@@ -11,6 +11,10 @@
   animation-delay: 0.15s;
   z-index: 20;
   background: $lighter-gray;
+  @media (prefers-color-scheme: dark) {
+    background: $darker-gray;
+    color: $masthead-link-color-dm;
+  }
 
   &__inner-wrap {
     @include container;
@@ -34,6 +38,10 @@
 
 .masthead__menu {
   background: $lighter-gray;
+  @media (prefers-color-scheme: dark) {
+    background: $darker-gray;
+    color: $masthead-link-color-dm;
+  }
   ul {
     margin: 0;
     padding: 0;
@@ -44,6 +52,10 @@
 
 .masthead__menu-item {
   background: $lighter-gray;
+  @media (prefers-color-scheme: dark) {
+    background: $darker-gray;
+    color: $masthead-link-color-dm;
+  }
   display: block;
   list-style-type: none;
   white-space: nowrap;

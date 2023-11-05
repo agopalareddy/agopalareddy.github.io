@@ -21,6 +21,10 @@
   -webkit-animation-delay: 0.45s;
   animation-delay: 0.45s;
   background-color: $lighter-gray;
+  @media (prefers-color-scheme: dark) {
+    background-color: $darker-gray;
+    color: $masthead-link-color-dm;
+  }
   border-top: 1px solid $light-gray;
 
   footer {
@@ -43,6 +47,9 @@
     &:hover {
       color: $masthead-link-color-hover;
       text-decoration: underline;
+      @media (prefers-color-scheme: dark) {
+        color: $masthead-link-color-hover-dm;
+      }
     }
   }
 
