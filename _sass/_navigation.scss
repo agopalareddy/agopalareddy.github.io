@@ -60,6 +60,7 @@
   @include clearfix();
   margin-top: 1em;
   padding-top: 1em;
+  padding-bottom: 2em;
 
   ul {
     margin: 0;
@@ -105,7 +106,7 @@
       &.disabled {
         color: mix(white, $gray, 75%);
         @media (prefers-color-scheme: dark) {
-          color: mix(black, $gray, 75%);
+          color: mix(white, $dark-gray, 100%);
         }
         pointer-events: none;
         cursor: not-allowed;
@@ -144,7 +145,7 @@
     color: mix(white, $gray, 50%);
     border: 1px solid $light-gray;
     @media (prefers-color-scheme: dark) {
-      color: mix(black, $gray, 50%);
+      color: mix(white, $gray, 50%);
       border: 1px solid $dark-gray;
     }
     &:hover {
@@ -167,7 +168,7 @@
       cursor: not-allowed;
       color: mix(white, $gray, 75%);
       @media (prefers-color-scheme: dark) {
-        color: mix(black, $gray, 70%);
+          color: $dark-gray;
       }
     }
   }
