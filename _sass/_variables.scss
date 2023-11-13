@@ -64,7 +64,7 @@ $border-color: $light-gray;
 $border-color-dm: $dark-gray;
 
 $primary-color: mix(black, $gray, 10%);
-$primary-color-dm: $gray;
+$primary-color-dm: mix(white, $gray, 25%);
 $success-color: #62c462;
 $warning-color: #f89406;
 $danger-color: #ee5f5b;
