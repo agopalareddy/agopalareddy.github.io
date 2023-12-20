@@ -22,7 +22,7 @@ We analyzed the data using Tableau dashboards and R. The visualizations allowed 
 
 Our results showed that AI has had a positive impact on the work of employees in all four industries. Employees reported that AI can make their work more efficient. Most reported that AI can perform most of their job functions and saves them some time and energy. A peer and I presented our preliminary findings at the 2023 Spring Student Symposium at Ohio Wesleyan University.
 
-### Technologies Used
+### Skills/Technologies
 
 - Teamwork
 - Research

@@ -10,7 +10,7 @@ last_modified_at: 2023-10-23 22:19:33
 
 Project part of the MITxSureStart FutureMakers Create-a-Thon Program. In a team of 4, co-developed AIParkinScan software for Parkinson's diagnosis using audio and image data. We utilized neural networks, spectrograms, and the Random Forest algorithm.
 
-### Technologies Used
+### Skills/Technologies
 
 - Python
 - Tensorflow
