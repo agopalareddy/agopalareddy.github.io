@@ -1,0 +1,61 @@
+Name: Workflow_d9c6
+SchemaVersion: "1.0"
+
+# Optional - Set automatic triggers.
+Triggers:
+  - Type: Push
+    Branches:
+      - master
+
+# Required - Define action configurations.
+Actions:
+  Build_5b:
+    # Identifies the action. Do not modify this value.
+    Identifier: aws/build@v1.0.0
+    # Specifies the source and/or artifacts to pass to the action as input.
+    Inputs:
+      # Optional
+      Sources:
+        - WorkflowSource # This specifies that the action requires this Workflow as a source
+    Outputs:
+      # Optional; Automatically discover reports for popular test frameworks
+      AutoDiscoverReports:
+        Enabled: true
+        # Use as prefix for the report files
+        ReportNamePrefix: rpt
+    # Defines the action's properties.
+    Configuration:
+      # Required - Steps are sequential instructions that run shell commands
+      Steps:
+        - Run: sudo yum groupinstall -y "Development Tools"
+        - Run: sudo amazon-linux-extras install ruby3.0
+        - Run: sudo yum install -y ruby-devel
+        - Run: sudo gem install jekyll bundler
+        - Run: sudo bundle install
+        - Run: bundle exec jekyll build
+    Compute:
+      Type: EC2
+  DeployToAWSAmplifyHosting_98:
+    # Identifies the action. Do not modify this value.
+    Identifier: codecatalyst-labs/deploy-to-amplify-hosting@v1.0.1
+    # Required; You can use an environment, AWS account connection, and role to access AWS resources.
+    Environment:
+      Connections:
+        - Role: CodeCatalystWorkflowDevelopmentRole-Aadarsha_Code
+          Name: "293845896811"
+      Name: production
+    # Specifies the source and/or artifacts to pass to the action as input.
+    Inputs:
+      # Optional
+      Sources:
+        - WorkflowSource # This specifies that the action requires this Workflow as a source
+    Compute:
+      Type: Lambda
+    Configuration:
+      Wait: true
+      AWSRegion: us-east-2
+      CreateBranch: true
+      AmplifyBranchName: ${WorkflowSource.BranchName}
+      Path: .
+    DependsOn:
+      - Build_5b
