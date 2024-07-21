@@ -6,10 +6,12 @@ author_profile: true
 redirect_from:
   - /about/
   - /about.html
-last_modified_at: 2023-10-08 18:10:51
+last_modified_at: 2024-07-21 16:06:44
 ---
 
-As a data analyst intern at Lab714, I develop software that works with proprietary IoT devices to extract, organize, and analyze data. I generate meaningful client-facing results from the data, which create significant cost savings. I use React and AWS to create user-friendly interfaces and dashboards for data visualization and interaction.
+Incoming Master of Science in Computer Science student at Washington University in St. Louis. I will concentrate on artificial intelligence and machine learning, with a focus on neuroscience.
+
+As a data analyst intern at Lab714, I developed software that works with proprietary IoT devices to extract, organize, and analyze data. I generated meaningful client-facing results from the data, which created significant cost savings. I also used web development skills, especially React.js and AWS, to create user-friendly interfaces and dashboards for data visualization and interaction.
 
 # Background
 
@@ -17,4 +19,4 @@ I graduated from [Ohio Wesleyan University](https://www.owu.edu/) with a BA in [
 
 # Passions
 
-I am passionate about using data science and analytics to tackle real-world problems. As a strong communicator and mentor, I am also committed to improving the community. I am looking for opportunities to further develop my skills and contribute to impactful and innovative solutions.
+I am passionate about using data science and analytics to tackle real-world problems. As a strong communicator and mentor, I am also committed to improving the community. I am excited to learn and grow in my upcoming graduate studies and future career. I am also interested in collaborating with other professionals and students, so feel free to reach out to me if you have any questions or ideas!
