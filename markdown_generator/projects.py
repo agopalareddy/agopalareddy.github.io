@@ -1,4 +1,3 @@
-
 # coding: utf-8
 
 # # Projects markdown generator for academicpages
@@ -26,7 +25,6 @@ import datetime
 import os
 import pandas as pd
 
-
 # ## Import TSV
 #
 # Pandas makes this easy with the read_csv function. We are using a TSV, so we specify the separator as a tab, or `\t`.
@@ -37,7 +35,6 @@ import pandas as pd
 
 projects = pd.read_csv("projects.tsv", sep="\t", header=0)
 projects
-
 
 # ## Escape special characters
 #
@@ -103,7 +100,7 @@ for row, item in projects.iterrows():
     md += "\nvenue: \"" + html_escape(item.venue) + "\""
 
     md += "\nlast_modified_at: " + \
-        str(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+          str(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
 
     md += "\n---"
 
