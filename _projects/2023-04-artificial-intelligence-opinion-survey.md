@@ -35,5 +35,5 @@ Our results showed that AI has had a positive impact on the work of employees in
 
 ### Links
 
-- [GitHub Repository](https://github.com/Aadarsha2002/DATA490)
+- [GitHub Repository](https://github.com/agoplareddy/DATA490)
 - [OWU 2023 Spring Student Symposium Press Release](https://www.owu.edu/news-media/details/smart-celebration/)

@@ -111,7 +111,7 @@ for row, item in projects.iterrows():
     md += "\n- skill 2"
     md += "\n- skill 3"
     md += "\n\n## Links"
-    md += "\n\n- [GitHub Repository](https://github.com/Aadarsha2002/<repository_name>)"
+    md += "\n\n- [GitHub Repository](https://github.com/agoplareddy/<repository_name>)"
 
     md_filename = os.path.basename(md_filename)
 

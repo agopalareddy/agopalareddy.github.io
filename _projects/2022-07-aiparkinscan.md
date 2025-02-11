@@ -20,5 +20,5 @@ Project part of the MITxSureStart FutureMakers Create-a-Thon Program. In a team 
 
 ### Links
 
-- [GitHub Repository](https://github.com/Aadarsha2002/AIPS)
+- [GitHub Repository](https://github.com/agoplareddy/AIPS)
 - [Presentation (download pptx)](https://docs.google.com/presentation/d/10910WNa3CjiXIcH_T5OIXyOuOTiVKFHr/export/pptx)

@@ -11,9 +11,9 @@ title: "Aadarsha Gopala Reddy"
 title_separator: "-"
 name: &name "Aadarsha Gopala Reddy"
 description: &description "personal description"
-url: https://aadarsha2002.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: https://agopalareddy.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
-repository: "aadarsha2002.github.io"
+repository: "agopalareddy.github.io"
 teaser: # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs: true # true, false (default)
 words_per_minute: 160
@@ -94,7 +94,7 @@ author:
   flickr:
   facebook:
   foursquare:
-  github: "aadarsha2002"
+  github: "agopalareddy"
   google_plus:
   keybase:
   instagram: "adurs2002"
