@@ -19,6 +19,7 @@
     right=1.2cm,
     footskip=0.8cm
 ]{geometry}
+\RequirePackage{caption}
 \RequirePackage{titlesec}
 \RequirePackage{tabularx}
 \RequirePackage{array}
@@ -27,7 +28,7 @@
 \RequirePackage{fontawesome5}
 \RequirePackage{amsmath}
 \RequirePackage[
-    pdftitle={Aadarsha's CV},
+    pdftitle={Aadarsha's Resume},
     pdfauthor={Aadarsha Gopala Reddy},
     pdfcreator={LaTeX with RenderCV},
     colorlinks=true,
@@ -43,6 +44,7 @@
 \RequirePackage{needspace}
 \RequirePackage{iftex}
 \RequirePackage{charter}
+\RequirePackage{qrcode}
 
 % Color definitions
 \definecolor{primaryColor}{RGB}{0, 0, 0}
@@ -69,9 +71,10 @@
 
 % Section formatting
 \titleformat{\section}{\needspace{3\baselineskip}\bfseries\large\color{accentColor}}{}{0pt}{}[\vspace{0.5pt}\color{accentColor}\titlerule]
-\titlespacing{\section}{-1pt}{0.1cm}{0.1cm}
+\titlespacing{\section}{0pt}{0.1cm}{0.1cm}
 
 % Custom environments
+
 \renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$}
 
 \newenvironment{highlights}{
@@ -128,7 +131,7 @@
 }
 
 \newenvironment{header}{
-    \setlength{\topsep}{0pt}\par\kern\topsep\centering\linespread{1.5}
+    \setlength{\topsep}{0pt}\par\kern\topsep\raggedright\linespread{1.5}
 }{
     \par\kern\topsep
 }

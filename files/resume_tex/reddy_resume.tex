@@ -1,31 +1,40 @@
 \documentclass[10pt, letterpaper]{article}
 \usepackage{reddy_resume}
+\usepackage{qrcode}
 
 \begin{document}
 
 \begin{header}
-    \fontsize{20pt}{20pt}\selectfont \textbf{Aadarsha Gopala Reddy}\\
-    \normalsize
-    \vspace{\headerSpacing}
-    \mbox{St. Louis, Missouri 63112 USA}%
-    \kern \kernSpacing%
-    \AND%
-    \kern \kernSpacing%
-    \mbox{\hrefWithoutArrow{mailto:a.gopalareddy@wustl.edu}{a.gopalareddy@wustl.edu}}%
-    \kern \kernSpacing%
-    \AND%
-    \kern \kernSpacing%
-    \mbox{\hrefWithoutArrow{tel:+17408021776}{+1 (740) 802-1776}}%
-    \kern \kernSpacing%
-    \AND%
-    \kern \kernSpacing%
-    \mbox{\hrefWithoutArrow{https://linkedin.com/in/aadarsha2002}{linkedin.com/in/aadarsha2002}}%
+    \begin{minipage}[t]{0.73\textwidth}
+        \fontsize{20pt}{20pt}\selectfont \textbf{Aadarsha Gopala Reddy}\\
+        \vspace{\headerSpacing}
+        \normalsize
+        \mbox{St. Louis, Missouri 63112 USA}%
+        \kern \kernSpacing%
+        \AND%
+        \kern \kernSpacing%
+        \mbox{\hrefWithoutArrow{mailto:a.gopalareddy@wustl.edu}{a.gopalareddy@wustl.edu}}%
+        \kern \kernSpacing%
+        \AND%
+        \kern \kernSpacing%
+        \mbox{\hrefWithoutArrow{tel:+17408021776}{+1 (740) 802-1776}}%
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.13\textwidth}
+        \raggedleft
+        \href{https://linkedin.com/in/agopalareddy}{\raggedright linkedin.com/in/\\agopalareddy}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.10\textwidth}
+        \raggedleft
+        \qrcode{https://linkedin.com/in/agopalareddy}
+    \end{minipage}
 \end{header}
 
 \section{SUMMARY}
 
 \begin{onecolentry}
-    Data analyst and programmer with a passion for solving real-world problems. Proven ability to use data to identify trends, develop insights, and make recommendations. Strong communicator and mentor committed to community service.
+    Versatile professional skilled in data analysis programming, dedicated to uncovering trends and delivering meaningful results. With a commitment to continuous learning and teamwork, I enjoy turning data into strategic opportunities.
 \end{onecolentry}
 
 \section{SKILLS}
@@ -39,7 +48,7 @@
 \end{onecolentry}
 \vspace{\highlightSpacing}
 \begin{onecolentry}
-    \textbf{Software:} Visual Studio, Tableau, Power BI, Amazon Web Services, Microsoft 365, and Google Workspace.
+    \textbf{Software:} Visual Studio, VS Code, Tableau, Power BI, Amazon Web Services, Microsoft 365, and Google Workspace.
 \end{onecolentry}
 \vspace{\highlightSpacing}
 \begin{onecolentry}
@@ -114,7 +123,7 @@
 \mbox{\textit{MS in Computer Science} --- GPA: 3.2/4.0}
 \begin{onecolentry}
     \begin{highlights}
-        \item \textbf{Coursework:} Introduction to AI for Health, Algorithms for Computational Biology, Deep Reinforcement Learning, Rapid Prototype Development and Creative Programming.
+        \item \textbf{Coursework:} Artificial Intelligence for Health, Computational Biology, Deep Learning, and Software Development.
     \end{highlights}
 \end{onecolentry}
 
@@ -133,7 +142,7 @@
     \begin{highlights}
         \item \textbf{Honors:} Golden Bishop Award, Mortar Board, Florence Leas Prize, Spring 2022 and Spring 2023 Dean's List.
 
-        \item \textbf{Coursework:} Computer Organization, Theory of Computation, Algorithm Analysis and Design, Impacts of Big Data, Data Visualization and Presentation, Methods in Data Analytics, Database Systems, Data Mining and Machine Learning, Artificial Intelligence, Applied Statistics.
+        \item \textbf{Coursework:} Computer Architecture, Theory of Computation, Algorithms, Big Data, Data Visualization, Data Analytics, Databases, Machine Learning, Artificial Intelligence, Applied Statistics.
     \end{highlights}
 \end{onecolentry}
 
@@ -183,6 +192,7 @@
 \begin{onecolentry}
     \begin{highlights}
         \item Developed an intelligent agent for the card game Lost Cities under Dr. Sean McCulloch's mentorship.
+        \item Presented the research at the Patricia Belt Conrades Summer Science Research Symposium.
     \end{highlights}
 \end{onecolentry}
 \end{document}
