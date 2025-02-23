@@ -1,5 +1,5 @@
 ---
-date: 2024-12-15
+date: 2024-11-30
 title: "Datacenter Cooling Optimization using Deep Reinforcement Learning"
 collection: projects
 permalink: /projects/2024-12-datacenter-cooling

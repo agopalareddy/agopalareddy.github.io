@@ -1,5 +1,5 @@
 ---
-date: 2024-12-15
+date: 2024-11-30 #11 to show "Fall" and not "Winter"
 title: "Multimodal Prediction of Alzheimer's Disease"
 collection: projects
 permalink: /projects/2024-12-multimodal-alzheimers

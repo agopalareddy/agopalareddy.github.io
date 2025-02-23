@@ -1,5 +1,5 @@
 ---
-date: 2024-12-4
+date: 2024-11-30
 title: "Interactive Storybook"
 collection: projects
 permalink: /projects/2024-12-interactive-storybook
