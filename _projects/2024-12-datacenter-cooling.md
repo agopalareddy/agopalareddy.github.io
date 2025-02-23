@@ -1,5 +1,5 @@
 ---
-date: 2024-11-30
+date: 2024-11-30 #11 to show "Fall" and not "Winter"
 title: "Datacenter Cooling Optimization using Deep Reinforcement Learning"
 collection: projects
 permalink: /projects/2024-12-datacenter-cooling
