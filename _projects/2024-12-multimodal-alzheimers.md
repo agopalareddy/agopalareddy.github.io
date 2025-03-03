@@ -15,7 +15,6 @@ This project implements a comprehensive multimodal approach for predicting Alzhe
 - Multimodal data integration from OASIS-1 dataset
 - Deep learning models for image analysis
 - Machine learning models for clinical data analysis
-- Feature importance analysis using SHAP values
 - Comprehensive performance evaluation metrics
 - Visual analysis of model predictions
 - Combined classifier leveraging both imaging and clinical data
@@ -25,7 +24,6 @@ This project implements a comprehensive multimodal approach for predicting Alzhe
 - Python 3.12
 - Deep Learning Frameworks: TensorFlow/Keras, PyTorch
 - Machine Learning: Scikit-learn, XGBoost
-- Explainable AI: SHAP (SHapley Additive exPlanations)
 - Data Analysis: Pandas & NumPy
 - Visualization: Matplotlib & Seaborn
 - Development Environment: Jupyter Notebooks
