@@ -21,4 +21,4 @@ A team of 3 students, we developed a Connect 4 game in Java with both single pla
 
 ### Links
 
-- [GitHub Repository](https://github.com/agoplareddy/CS340Final-Connect4)
+- [GitHub Repository](https://github.com/agopalareddy/CS340Final-Connect4)
