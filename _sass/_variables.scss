@@ -15,7 +15,7 @@ $indent-var: 1.3em;
 /* system typefaces */
 $serif: Georgia, Times, serif;
 $sans-serif: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto",
-  "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+   "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 $monospace: Monaco, Consolas, "Lucida Console", monospace;
 
 /* sans serif typefaces */
@@ -58,6 +58,7 @@ $background-color: white;
 $background-color-dm: mix(black, $dark-gray, 30%);
 $code-background-color: #fafafa;
 $code-background-color-dark: $light-gray;
+$code-background-color: #f5f5f5;
 $text-color: $darker-gray;
 $text-color-dm: $lighter-gray;
 $border-color: $light-gray;
@@ -132,20 +133,20 @@ $right-sidebar-width: 0px;
 $right-sidebar-width-wide: 0px;
 
 $susy: (
-  columns: 12,
-  column-width: 120px,
-  gutters: 1/4,
-  math: fluid,
-  output: float,
-  gutter-position: after,
-  container: $large,
-  global-box-sizing: border-box,
-  // debug: (
-  //   image: show,
-  //   color: blue,
-  //   output: overlay,
-  //   toggle: top right,
-  // ),,,,,,,,,,,,,,,,,,
+   columns: 12,
+   column-width: 120px,
+   gutters: 1/4,
+   math: fluid,
+   output: float,
+   gutter-position: after,
+   container: $large,
+   global-box-sizing: border-box,
+   // debug: (
+   //   image: show,
+   //   color: blue,
+   //   output: overlay,
+   //   toggle: top right,
+   // ),,,,,,,,,,,,,,,,,,
 );
 
 /*
