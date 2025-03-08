@@ -45,7 +45,7 @@ For a complete overview of my skills and experience, please check my [CV/Resume]
 
 #### Academic Background
 
-I graduated from [Ohio Wesleyan University](https://www.owu.edu/) with a BA in [Computer Science](https://www.owu.edu/academics/departments-programs/department-of-mathematics-and-computer-science/computer-science-general-major/) and [Data Analytics](https://www.owu.edu/academics/departments-programs/data-analytics-program/data-analytics-major/), complemented by a minor in [Economics](https://www.owu.edu/academics/departments-programs/economics-and-business-department/minors/##:~:text=More%20Information-,Economics%20Minor,-Economics%20is%20a). My academic journey has been distinguished by multiple honors, including:
+I graduated from [Ohio Wesleyan University](https://www.owu.edu/) with a BA in [Computer Science](https://www.owu.edu/academics/departments-programs/department-of-mathematics-and-computer-science/computer-science-general-major/) and [Data Analytics](https://www.owu.edu/academics/departments-programs/data-analytics-program/data-analytics-major/), complemented by a minor in [Economics](https://www.owu.edu/academics/departments-programs/economics-and-business-department/minors/#:~:text=More%20Information-,Economics%20Minor,-Economics%20is%20a). My academic journey has been distinguished by multiple honors, including:
 
 - Mortar Board National College Senior Honor Society Membership
 - Golden Bishop Award for outstanding contributions to student government
