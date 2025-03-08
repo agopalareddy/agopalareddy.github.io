@@ -13,15 +13,15 @@ last_modified_at: 2024-09-05 22:47:43
 
 I am a Master of Science in Computer Science student at [Washington University in St. Louis (WashU)](https://www.washu.edu/), with a focus on artificial intelligence and machine learning, particularly in neuroscience applications. My research interests combine cutting-edge AI techniques with practical applications in healthcare and cognitive science.
 
-#### Current Work
+### Current Work
 
 As a Graduate Assistant at the Taylor Family Center for Student Success at WashU, I lead initiatives for first-generation and low-income student success through data-driven program planning and assessment. I coordinate events, lead marketing initiatives, track student metrics, and support alumni engagement through newsletter development and database management.
 
-#### Previous Work
+### Previous Work
 
 Previously, as a Data Analyst Intern at [Lab714](https://www.lab714.com/), I engineered software solutions for proprietary IoT devices, extracting actionable insights that reduced client costs by 20%. I leveraged React.js and AWS to develop user-friendly dashboards for data visualization and interaction.
 
-#### Research & Projects
+### Research & Projects
 
 I have developed several innovative projects at the intersection of AI and practical applications:
 
@@ -33,7 +33,7 @@ I have developed several innovative projects at the intersection of AI and pract
 
 - **Artificial Intelligence in Gaming**, where I implemented alpha-beta pruning algorithms for [Connect 4](/projects/2022-11-connect-4-ai) (achieving 100% wins against baseline AI) and created a custom evaluation function for the [Lost Cities](/projects/2022-07-artificial-intelligence-in-modern-board-games) card game (winning 73% of games against baseline).
 
-#### Technical Expertise
+### Technical Expertise
 
 I have extensive experience with:
 - **Programming Languages**: Java, C++, Python, R, JavaScript/TypeScript, PHP, SQL, Rust
@@ -43,7 +43,7 @@ I have extensive experience with:
 
 For a complete overview of my skills and experience, please check my [CV/Resume](/cv/).
 
-#### Academic Background
+### Academic Background
 
 I graduated from [Ohio Wesleyan University](https://www.owu.edu/) with a BA in [Computer Science](https://www.owu.edu/academics/departments-programs/department-of-mathematics-and-computer-science/computer-science-general-major/) and [Data Analytics](https://www.owu.edu/academics/departments-programs/data-analytics-program/data-analytics-major/), complemented by a minor in [Economics](https://www.owu.edu/academics/departments-programs/economics-and-business-department/minors/#:~:text=More%20Information-,Economics%20Minor,-Economics%20is%20a). My academic journey has been distinguished by multiple honors, including:
 
@@ -55,7 +55,7 @@ I graduated from [Ohio Wesleyan University](https://www.owu.edu/) with a BA in [
 
 My undergraduate research culminated in presentations at the OWU Spring Student Symposium and the 30th Annual Patricia Belt Conrades Summer Science Research Symposium, where I shared insights on [AI's impact in workplaces](/projects/2023-04-artificial-intelligence-opinion-survey) and [board game applications](/projects/2022-07-artificial-intelligence-in-modern-board-games).
 
-#### Leadership & Involvement
+### Leadership & Involvement
 
 At Washington University, I serve as:
 - McKelvey Graduate Ambassador, representing the McKelvey School of Engineering and engaging with prospective students through outreach and mentorship
@@ -66,7 +66,7 @@ At Washington University, I serve as:
 
 These roles reflect my commitment to community building and professional development beyond technical work.
 
-#### Passions & Goals
+### Passions & Goals
 
 I am passionate about leveraging data science and AI to solve meaningful problems in healthcare and society. My research in [Alzheimer's detection](/projects/2024-12-multimodal-alzheimers) and [datacenter optimization](/projects/2024-12-datacenter-cooling) demonstrates my commitment to applying AI for social good. As a strong communicator and mentor, I value collaboration and knowledge-sharing within the tech community.
 
