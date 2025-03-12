@@ -1,4 +1,7 @@
+.gitignore
 _site/
 
 files/cv_tex
 files/resume_tex
+files/resume_tex copy
+files/cover_tex
