@@ -1,8 +1,14 @@
 .gitignore
 _site/
 
-files/cv_tex
-files/resume_tex
+files/cv_tex/*
+!files/cv_tex/*.tex
+!files/cv_tex/*.sty
+!files/cv_tex/*.pdf
+files/resume_tex/*
+!files/resume_tex/*.tex
+!files/resume_tex/*.sty
+!files/resume_tex/*.pdf
 files/resume_tex_jobs
 files/cover_tex
 files/JOB_APPS

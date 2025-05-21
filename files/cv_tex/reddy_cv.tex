@@ -1,0 +1,393 @@
+% Document Type: LaTeX Article
+% Purpose: This LaTeX document serves as a Curriculum Vitae (CV) for Aadarsha Gopala Reddy.
+% It is structured to present academic qualifications, research experience, teaching roles,
+% industry experience, skills, honors, presentations, leadership roles, and projects
+% in a clear, organized, and professional manner. The CV utilizes a custom LaTeX style
+% defined in 'reddy_cv.sty' for consistent formatting and layout.
+%
+% --- Preamble ---
+% \documentclass[10pt, letterpaper]{article}
+%   - Specifies the document class as 'article'.
+%   - Sets the base font size to 10pt.
+%   - Sets the paper size to 'letterpaper'.
+%
+% \usepackage{reddy_cv}
+%   - Imports a custom LaTeX package named 'reddy_cv.sty'. This package is presumed
+%     to define custom environments (e.g., `header`, `twocolentry`, `onecolentry`,
+%     `highlightsforbulletentries`, `honorstwocolentry`), custom commands
+%     (e.g., `\hrefWithoutArrow`, `\qrcode`, `\AND`), and custom spacing macros
+%     (e.g., `\kernSpacing`, `\headerSpacing`, `\entrySpacing`, `\highlightSpacing`)
+%     to achieve the specific layout and style of this CV.
+%
+% --- Document Body ---
+% \begin{document} ... \end{document}
+%   - This environment encloses the entire visible content of the CV.
+%
+% --- Header Section ---
+% \begin{header} ... \end{header}
+%   - A custom environment for the CV's header.
+%   - It is internally structured using `minipage` environments to create a multi-column layout.
+%   - Left column (0.65\textwidth):
+%     - Displays the name "Aadarsha Gopala Reddy" in a large font size.
+%     - Lists contact information: email and phone number.
+%     - `\hrefWithoutArrow` is used for hyperlinking email and phone, likely a custom
+%       command to style hyperlinks without the default box or arrow.
+%     - `\kern \kernSpacing` and `\AND` are used for horizontal spacing and separation
+%       of contact details.
+%   - Middle column (0.16\textwidth, right-aligned):
+%     - Displays the personal website URL, hyperlinked.
+%   - Right column (0.10\textwidth, right-aligned):
+%     - Displays a QR code (`\qrcode`) linking to the personal website.
+%
+% --- Spacing Elements ---
+% - `\vspace{\headerSpacing}`, `\vspace{\entrySpacing}`, `\vspace{\highlightSpacing}`:
+%   These commands insert vertical space of predefined lengths. The lengths
+%   `\headerSpacing`, `\entrySpacing`, and `\highlightSpacing` are likely defined
+%   in `reddy_cv.sty` to ensure consistent spacing between sections, entries,
+%   and highlight blocks respectively.
+%
+% --- Main Sections ---
+% The CV is organized into several standard sections using `\section{SECTION NAME}`.
+%
+% 1. \section{EDUCATION}
+%    - Lists academic degrees, institutions, and relevant details.
+%    - Uses `\begin{twocolentry}{Date Range}` to display the period of study alongside
+%      the degree name and university.
+%    - `\begin{onecolentry}` with `\begin{highlightsforbulletentries}` is used for
+%      bulleted lists detailing GPA, coursework, and minors.
+%
+% 2. \section{RESEARCH EXPERIENCE}
+%    - Details research projects, including titles (hyperlinked to repositories),
+%      affiliations, and dates/contexts.
+%    - `\mbox{}` is used to group project titles/links and affiliations.
+%    - `\begin{twocolentry}{Date/Context}` specifies the timeframe or related course.
+%    - `\begin{onecolentry}` with `\begin{highlightsforbulletentries}` lists key
+%      contributions, methods used, and outcomes for each project.
+%
+% 3. \section{TEACHING EXPERIENCE}
+%    - Describes roles and responsibilities in teaching or academic support.
+%    - `\begin{twocolentry}{Date Range}` for the position and institution.
+%    - `\begin{onecolentry}` with `\begin{highlightsforbulletentries}` for detailed responsibilities.
+%
+% 4. \section{INDUSTRY EXPERIENCE}
+%    - Outlines professional roles, internships, and company affiliations.
+%    - Structure is similar to Teaching Experience, using `twocolentry` for role/dates
+%      and `onecolentry` with `highlightsforbulletentries` for accomplishments.
+%
+% 5. \section{SKILLS}
+%    - Lists technical and non-technical skills categorized for clarity.
+%    - Each category (e.g., Programming Languages, Frameworks & Libraries, Tools & Technologies,
+%      Core Competencies, Languages) is presented within a `\begin{onecolentry}`.
+%    - Skill categories are bolded, followed by a list of specific skills.
+%
+% 6. \section{HONORS}
+%    - Enumerates awards, scholarships, and other academic distinctions.
+%    - Uses a custom `\begin{honorstwocolentry}{Date/Year}` environment for each honor,
+%      listing the date/year and the honor details (name and awarding institution).
+%
+% 7. \section{PRESENTATIONS}
+%    - Lists academic or professional presentations given.
+%    - Uses `\begin{twocolentry}{Date}` to display the date alongside the presentation
+%      title and the event/venue.
+%
+% 8. \section{LEADERSHIP EXPERIENCE}
+%    - Details leadership roles held in various organizations or student groups.
+%    - Each entry typically includes the organization name and location, followed by
+%      `\begin{twocolentry}{Date Range}` for the role and tenure, and
+%      `\begin{onecolentry}` with `\begin{highlightsforbulletentries}` for
+%      responsibilities and achievements.
+%
+% 9. \section{PROJECTS}
+%    - Showcases significant academic or personal projects not covered under Research Experience.
+%    - `\begin{twocolentry}{Date}` is used for the project title (often hyperlinked) and
+%      the context (e.g., course, institution).
+%    - `\begin{onecolentry}` with `\begin{highlightsforbulletentries}` describes the
+%      project's objectives, technologies used, and key outcomes.
+%
+% --- General LaTeX Formatting and Commands Used ---
+% - `\mbox{text}`: Ensures 'text' stays on a single line.
+% - `\textbf{text}`: Formats 'text' in bold.
+% - `\textit{text}`: Formats 'text' in italics.
+% - `\kern \kernSpacing`: Inserts custom horizontal space. `\kernSpacing` is likely a
+%   predefined length.
+% - `\AND`: A custom macro, possibly for a separator symbol (e.g., "|") with spacing.
+% - `\fontsize{size}{skip}\selectfont`: Sets font size and leading.
+% - `\raggedright`, `\raggedleft`: Text alignment commands.
+% - `\href{url}{text}`: Standard hyperlink command (though `\hrefWithoutArrow` is more common here).
+%
+% This CV template is well-structured, leveraging custom LaTeX capabilities for a
+% professional and maintainable document.
+\documentclass[10pt, letterpaper]{article}
+\usepackage{reddy_cv}
+
+\begin{document}
+
+\begin{header}
+    \begin{minipage}[t]{0.65\textwidth}
+        \fontsize{20pt}{20pt}\selectfont \textbf{Aadarsha Gopala Reddy}\\
+        \normalsize
+        % \mbox{St. Louis, Missouri 63112 USA}%
+        % \kern \kernSpacing%
+        % \AND%
+        % \kern \kernSpacing%
+        \mbox{\hrefWithoutArrow{mailto:a.gopalareddy@wustl.edu}{a.gopalareddy@wustl.edu}}%
+        \kern \kernSpacing%
+        \AND%
+        \kern \kernSpacing%
+        \mbox{\hrefWithoutArrow{tel:+17408021776}{+1 (740) 802-1776}}%
+        % \kern \kernSpacing%
+        % \AND%
+        % \kern \kernSpacing%
+        % \mbox{\href{https://agopalareddy.github.io}{\raggedright agopalareddy.github.io}}%
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.15\textwidth}
+        \raggedleft
+        \href{https://agopalareddy.github.io}{agopalareddy.github.io}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.11\textwidth}
+        \raggedleft
+        \qrcode{https://agopalareddy.github.io}
+    \end{minipage}
+\end{header}
+
+\vspace{\headerSpacing}
+\section{EDUCATION}
+
+\begin{educationentry}{M.S. Computer Science}{Washington University in St. Louis, St. Louis, Missouri, USA}{Fall 2024 - *Spring 2026}
+    \item \textbf{GPA:} 3.52/4.0
+    \item \textbf{Coursework:}  Artificial Intelligence for Health, Neurobiology of Learning \& Memory, Advanced Neuroscience Research Methods, Computational Biology, Deep Learning, Systems Security, Software Development, and Introduction to Quantum Computing.
+\end{educationentry}
+
+\begin{educationentry}{B.A. Computer Science and Data Analytics}{Ohio Wesleyan University, Delaware, Ohio, USA}{Fall 2020 - Spring 2023}
+    \item \textbf{Minor:} Economics
+    \item \textbf{GPA:} 3.42/4.0
+    \item \textbf{Coursework:} Computer Architecture, Theory of Computation, Algorithms, Big Data, Data Visualization, Data Analytics, Databases, Machine Learning, Artificial Intelligence, Applied Statistics.
+\end{educationentry}
+
+\vspace{\headerSpacing}
+\section{RESEARCH EXPERIENCE}
+
+\begin{researchentry}{\href{https://github.com/agopalareddy/CSE419A_Multimodal_Prediction_of_Alzheimers}{Multimodal Prediction of Alzheimer's Disease}}{Washington University in St. Louis}{St. Louis, Missouri, USA}{CSE 419A - Introduction to AI for Health}{Fall 2024}
+    \item Developed a multimodal approach for early detection of Alzheimer's Disease using the OASIS-1 dataset.
+    \item Implemented deep learning models (CNNs) using TensorFlow/Keras for MRI image analysis and machine learning techniques (XGBoost, Scikit-learn) for clinical data processing.
+    \item Created a combined classifier leveraging both imaging and clinical data.
+    \item Documented the project in NeurIPS format with comprehensive performance evaluation metrics and visualizations.
+\end{researchentry}
+
+\begin{researchentry}{\href{https://github.com/agopalareddy/DATA490}{Opinion Survey on Artificial Intelligence in the Workplace}}{Ohio Wesleyan University}{Delaware, Ohio, USA}{DATA 490 - Independent Study}{Spring 2023}
+    \item Designed, fielded, and investigated a survey experiment on the impact of AI on 250 employees within each of four industries using survey data under Dr. Nicholas Dietrich's mentorship.
+    \item Analyzed data using Tableau dashboards and R to identify trends and common opinions.
+    \item Presented preliminary results on AI's positive impact on employee work at the OWU Spring Student Symposium.
+\end{researchentry}
+
+\begin{researchentry}{\href{https://github.com/agopalareddy/CS340Final-Connect4}{Connect 4 AI}}{Ohio Wesleyan University}{Delaware, Ohio, USA}{CS 340 - Artificial Intelligence}{Fall 2022}
+    \item Developed a Connect 4 game in Java with a single-player mode against an AI opponent and a multiplayer mode for two human players.
+    \item Used the alpha-beta pruning algorithm to create a challenging AI opponent that can test players of all skill levels.
+\end{researchentry}
+
+\begin{researchentry}{\href{https://github.com/agopalareddy/LostCities}{Artificial Intelligence in Modern Board Games - Lost Cities AI}}{Ohio Wesleyan University}{Delaware, Ohio, USA}{Summer Science Research Program}{Summer 2022}
+    \item Developed a digital version of the Lost Cities card game using Java in 2 weeks under Dr. Sean McCulloch's mentorship.
+    \item Implemented an intelligent agent that played the game against a human, winning 13 of 18 games in testing.
+\end{researchentry}
+
+\vspace{\headerSpacing}
+\section{TEACHING EXPERIENCE}
+
+\begin{experienceentry}{Computer Science Lab Assistant}{Ohio Wesleyan University}{Delaware, Ohio, USA}{Spring 2022 - Spring 2023}
+    \item Tutored approximately ten students for over 6 hours per week, assisting with homework and exam preparation for introductory, intermediate, and advanced computer science coursework.
+    \item Tested and graded assignments of around 35 students in introductory and intermediate computer science classes.
+\end{experienceentry}
+
+\vspace{\headerSpacing}
+\section{INDUSTRY EXPERIENCE}
+
+\begin{experienceentry}{Graduate Assistant with the Taylor Family Center for Student Success}{Washington University in St. Louis}{St. Louis, Missouri, USA}{Fall 2024 - Spring 2025}
+    \item Led initiatives to enhance first gen/limited income student success, including program planning, data analysis, and communication.
+    \item Coordinated key events, tracked student data, and contributed to assessment efforts for the department.
+    \item Supported alumni engagement through newsletter development, database management, and other logistics.
+\end{experienceentry}
+
+\begin{experienceentry}{Data Analyst Intern}{Lab714}{Boca Raton, Florida, USA}{Summer 2023 - Summer 2024}
+    \item Achieved a 20\% reduction in costs for clients through data-driven insights.
+    \item Engineered a software using React and AWS to extract, organize, and analyze data from IoT devices.
+\end{experienceentry}
+
+\begin{experienceentry}{Media Center Assistant}{Ohio Wesleyan University}{Delaware, Ohio, USA}{Fall 2021 - Spring 2023}
+    \item Set up and tore down audio-visual equipment, logged equipment movement using Sierra, and created appointments for use of spaces.
+    \item Assisted with providing AV systems and support for events, ensuring successful setup and execution.
+\end{experienceentry}
+
+\vspace{\headerSpacing}
+\section{SKILLS}
+
+\begin{skillcategory}{Programming Languages}
+    Java, C++, Python, R, JavaScript/TypeScript, PHP, C\#, SQL, Rust.
+\end{skillcategory}
+
+\begin{skillcategory}{Frameworks \& Libraries}
+    TensorFlow, PyTorch, Scikit-learn, NumPy, Pandas, Node.js, Vue.js, React, Socket.IO, Gemini/OpenAI API.
+\end{skillcategory}
+
+\begin{skillcategory}{Tools \& Technologies}
+    Git, Tableau, Power BI, MySQL, AWS, MongoDB, MySQL, Microsoft 365, Google Workspace.
+\end{skillcategory}
+
+\begin{skillcategory}{Core Competencies}
+    Analytical Skills, Problem Solving, Critical Thinking, Communication, Team Collaboration, Leadership, Adaptability, Project Management.
+\end{skillcategory}
+
+\begin{skillcategory}{Languages}
+    Proficient in English, Kannada, Telugu; Fundamental in Hindi.
+\end{skillcategory}
+
+\vspace{\headerSpacing}
+\section{HONORS}
+
+\begin{honorentry}{Spring 2022 \& Spring 2023}{\textbf{Dean's List}, Ohio Wesleyan University}
+\end{honorentry}
+
+\begin{honorentry}{Spring 2023}{\textbf{Mortar Board National College Senior Honor Society Membership}, Ohio Wesleyan University}
+\end{honorentry}
+
+\begin{honorentry}{Spring 2023}{\textbf{Golden Bishop Award}, Ohio Wesleyan University}
+\end{honorentry}
+
+\begin{honorentry}{Spring 2022}{\textbf{Florence Leas Sophomore Prize}, Ohio Wesleyan University}
+\end{honorentry}
+
+\begin{honorentry}{Spring 2022}{\textbf{First Place - 32nd Annual Spring Programming Contest}, Denison University}
+\end{honorentry}
+
+\begin{honorentry}{2020}{\textbf{International Baccalaureate Scholarship}, Ohio Wesleyan University}
+\end{honorentry}
+
+\begin{honorentry}{2020}{\textbf{Scholar}, Next Genius Scholarship Foundation}
+\end{honorentry}
+
+\vspace{\headerSpacing}
+\section{PRESENTATIONS}
+
+\begin{presentationentry}{Spring 2023}{Artificial Intelligence Opinion Survey}{Spring Student Symposium}{Ohio Wesleyan University}
+\end{presentationentry}
+
+\begin{presentationentry}{Fall 2022}{Artificial Intelligence in Modern Board Games}{Patricia Belt Conrades Summer Science Research Symposium}{Ohio Wesleyan University}
+\end{presentationentry}
+
+\vspace{\headerSpacing}
+\section{LEADERSHIP EXPERIENCE}
+
+\begin{leadershipentry}{Graduate and Professional Student Council (GPSC)}{Washington University in St. Louis, St. Louis, Missouri, USA}
+    \begin{positionentry}{Vice President of the Graduate-Professional Council (GPC) Chamber}{Summer 2025 - Present}
+        \item Actively support the GPC Co-President in fulfilling leadership responsibilities and advancing council goals for the Master's and Professional student body. As per the constitution, prepared to assume the duties and powers of the Co-President in their absence to ensure leadership continuity.
+        \item Represent and advocate for GPC constituents' interests to university administration and faculty.
+    \end{positionentry}
+    \begin{positionentry}{McKelvey School of Engineering Representative, and member of the membership, Constitution, \& Outreach Committee}{Fall 2024 - Spring 2025}
+        \item Co-authored the GPSC's constitution and spearheaded outreach initiatives that expanded membership.
+        \item Advocated for the interests and concerns of McKelvey School of Engineering students.
+    \end{positionentry}
+\end{leadershipentry}
+
+\begin{leadershipentry}{UMANG (Indian Graduate Student Association)}{Washington University in St. Louis, St. Louis, Missouri, USA}
+    \begin{positionentry}{Treasurer}{Summer 2025 - Present}
+        \item Managing club finances, including budgeting, expense tracking, and fundraising to ensure sustainable operations and successful event planning.
+        \item Collaborating with members to organize cultural events and festivals, promoting cultural awareness and fostering community among Indian graduate students.
+    \end{positionentry}
+\end{leadershipentry}
+
+\begin{leadershipentry}{HackWashU}{Washington University in St. Louis, St. Louis, Missouri, USA}
+    \begin{positionentry}{Treasurer}{Fall 2024 - Present}
+        \item Managing the club's finances, including budgeting and expense tracking, to ensure sustainable operations and successful event planning.
+        \item Coordinating fundraising efforts and sponsorship outreach to support club activities and initiatives.
+        \item Collaborating with club members to organize hackathons and coding events, fostering a culture of innovation and teamwork among participants.
+    \end{positionentry}
+\end{leadershipentry}
+
+\begin{leadershipentry}{Association of Graduate Engineering Students (AGES)}{Washington University in St. Louis, St. Louis, Missouri, USA}
+    \begin{positionentry}{Member}{Fall 2024 - Present}
+        \item Organizing events and initiatives to foster community among graduate engineering students, enhancing networking and professional development opportunities.
+    \end{positionentry}
+\end{leadershipentry}
+
+\needspace{5\baselineskip}
+\begin{leadershipentry}{Hindu Student Council}{Ohio Wesleyan University, Delaware, Ohio, USA}
+    \begin{positionentry}{Treasurer and Founding Member}{Spring 2023}
+        \item Submitted formal budget requests and organized events to raise awareness of Hindu cultural heritage and provide youth leadership development and volunteer opportunities.
+    \end{positionentry}
+\end{leadershipentry}
+
+\begin{leadershipentry}{Wesleyan Council on Student Affairs (Student Government)}{Ohio Wesleyan University, Delaware, Ohio, USA}
+    \begin{positionentry}{Budget Committee Senator}{Fall 2022 - Spring 2023}
+        \item Proposed, discussed, and decided bills for the senate and oversaw budget allocation of over \$350,000 each year to individuals, clubs, and organizations on campus.
+        \item Awarded WCSA Best New Member Golden Bishop Award for making outstanding contributions to the council's missions, goals, and agenda.
+    \end{positionentry}
+\end{leadershipentry}
+
+\begin{leadershipentry}{The Neurds (Neuroscience Club)}{Ohio Wesleyan University, Delaware, Ohio, USA}
+    \begin{positionentry}{Member}{Fall 2022 - Spring 2023}
+        \item Presented on AI at Brain Fair 2023 during Brain Awareness Week, bridging neuroscience and technology.
+        \item Aided event planning and marketing for the club's educational and networking goals.
+        \item Promoted neuroscience awareness and community service for intellectual and career development.
+    \end{positionentry}
+\end{leadershipentry}
+
+\begin{leadershipentry}{Campus Programming Board}{Ohio Wesleyan University, Delaware, Ohio, USA}
+    \begin{positionentry}{Vice President of Finance}{Spring 2022 - Fall 2022}
+        \item Successfully planned, created, and implemented budgets totaling over \$86,000 each year for campus events.
+        \item Initiated and led revamp of organization's governing documents, implementing efficient practices.
+        \item Negotiated an additional \$10,000 per year with the Wesleyan Council on Student Affairs.
+    \end{positionentry}
+
+    \begin{positionentry}{Marketing Committee Member}{Fall 2020 - Spring 2023}
+        \item Spearheaded social media campaigns and designed promotional materials to enhance student engagement and event visibility.
+        \item Organized marketing initiatives, including posters, tabling events, and giveaways, to maximize student participation and attendance at events.
+    \end{positionentry}
+\end{leadershipentry}
+
+\begin{leadershipentry}{Mathematics, Computer Science \& Data Analytics Student Board}{Ohio Wesleyan University, Delaware, Ohio, USA}
+    \begin{positionentry}{Member}{Fall 2021 - Spring 2023}
+        \item Analyzed faculty evaluations to provide actionable insights for departmental improvements.
+        \item Gathered and synthesized student feedback on course offerings to recommend enhancements to the department.
+    \end{positionentry}
+\end{leadershipentry}
+
+\begin{leadershipentry}{Horizons International}{Ohio Wesleyan University, Delaware, Ohio, USA}
+    \begin{positionentry}{Marketing Committee Chair}{Fall 2021 - Fall 2022}
+        \item Led social media campaigns, designed materials to boost international student event awareness and engagement.
+        \item Organized marketing for cultural exchange, creating a welcoming environment for international students and fostering cross-cultural understanding within the university community.
+    \end{positionentry}
+\end{leadershipentry}
+
+\vspace{\headerSpacing}
+\section{PROJECTS}
+
+\begin{projectentry}{\href{https://github.com/agopalareddy/CSE510A_Datacenter_Cooling}{Datacenter Cooling Optimization using Deep Reinforcement Learning}}{Washington University in St. Louis}{St. Louis, Missouri, USA}{Fall 2024}
+    \item Implemented multiple deep reinforcement learning algorithms (DDQN, PPO, SAC) integrated with EnergyPlus simulations to optimize datacenter cooling systems.
+    \item Achieved 35.8\% energy efficiency improvement over baseline using DDQN, addressing the underserved small to mid-sized datacenter market.
+    \item Created a comprehensive framework integrating building energy simulation with reinforcement learning for dynamic thermal management.
+\end{projectentry}
+
+\begin{projectentry}{\href{https://github.com/agopalareddy/CSE503S_Interactive_Storybook}{Interactive Storybook}}{Washington University in St. Louis}{St. Louis, Missouri, USA}{Fall 2024}
+    \item Developed an interactive storytelling application using Vue.js, Node.js, and MongoDB with AI-powered content generation, enabling users to create branching narrative stories.
+    \item Implemented OpenAI API integration for dynamic story text and contextual image generation based on user choices.
+    \item Created a visual path tracking interface to help users navigate complex branching narratives and story progression.
+\end{projectentry}
+\begin{projectentry}{\href{https://github.com/agopalareddy/CSE503S_Chat_App}{Socket.IO Multi-Room Chat Application}}{Washington University in St. Louis}{St. Louis, Missouri, USA}{Fall 2024}
+    \item Developed a feature-rich multi-room chat application using Node.js and Socket.IO with password-protected rooms, private messaging, and user moderation capabilities.
+    \item Implemented room management features including creator privileges, user tracking, and persistent nickname storage.
+    \item Created real-time bidirectional event-based communication with responsive design for optimal user experience.
+\end{projectentry}
+
+\needspace{7\baselineskip}
+\begin{projectentry}{\href{https://github.com/agopalareddy/CSE503S_PHP_Calendar_App}{PHP Calendar Application}}{Washington University in St. Louis}{St. Louis, Missouri, USA}{Fall 2024}
+    \item Developed a feature-rich personal calendar and event management web application using PHP, MySQL, HTML5, CSS3, and JavaScript.
+    \item Implemented secure user authentication, CSRF protection, SQL injection prevention, and input sanitization.
+    \item Created an interactive calendar interface with comprehensive event management capabilities for creation, editing, and tracking.
+\end{projectentry}
+
+\begin{projectentry}{\href{https://github.com/agopalareddy/AIPS}{Parkinson's Disease AI Diagnosis Software}}{MITxSureStart FutureMakers Create-a-Thon Program}{Remote}{Summer 2022}
+    \item Developed AIParkinScan software for Parkinson's diagnosis using neural networks, spectrograms, and the Random Forest algorithm trained on audio and image data.
+\end{projectentry}
+
+\end{document}
