@@ -1,0 +1,41 @@
+# Normalize line endings across platforms
+# Store LF in the repo; editors on Windows can handle conversion per config
+* text=auto eol=lf
+
+# Windows scripts should keep CRLF when checked out
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Common text/code files (force LF in repo)
+*.sh text eol=lf
+*.rb text eol=lf
+*.py text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.css text eol=lf
+*.scss text eol=lf
+*.html text eol=lf
+*.md text eol=lf
+*.liquid text eol=lf
+
+# Images and other binaries
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.gz binary
+*.mp4 binary
+*.mov binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
+# SVG are text; keep as text for diffs
+*.svg text eol=lf

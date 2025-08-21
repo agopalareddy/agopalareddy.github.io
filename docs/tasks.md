@@ -1,4 +1,4 @@
-1. [ ] Repository hygiene: add/verify .editorconfig and .gitattributes for consistent line endings (LF vs CRLF) and whitespace across Windows/macOS/Linux.
+1. [x] Repository hygiene: add/verify .editorconfig and .gitattributes for consistent line endings (LF vs CRLF) and whitespace across Windows/macOS/Linux.
 2. [ ] Update README.md with Windows-friendly local workflow from guidelines (bundle exec jekyll liveserve --config _config.yml,_config.dev.yml; npm run build:js; troubleshooting tips for webrick/wdm).
 3. [ ] Add a CONTRIBUTING.md section on content conventions (front matter defaults, categories/tags, file locations for pages vs. collections).
 4. [ ] Establish a clear comments strategy: either configure Staticman/Disqus or disable comments by default in _config.yml and per-collection defaults.
