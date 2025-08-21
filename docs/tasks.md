@@ -1,16 +1,16 @@
 1. [x] Repository hygiene: add/verify .editorconfig and .gitattributes for consistent line endings (LF vs CRLF) and whitespace across Windows/macOS/Linux.
-2. [ ] Update README.md with Windows-friendly local workflow from guidelines (bundle exec jekyll liveserve --config _config.yml,_config.dev.yml; npm run build:js; troubleshooting tips for webrick/wdm).
+2. [x] Update README.md with Windows-friendly local workflow from guidelines (bundle exec jekyll liveserve --config _config.yml,_config.dev.yml; npm run build:js; troubleshooting tips for webrick/wdm).
 3. [ ] Add a CONTRIBUTING.md section on content conventions (front matter defaults, categories/tags, file locations for pages vs. collections).
 4. [ ] Establish a clear comments strategy: either configure Staticman/Disqus or disable comments by default in _config.yml and per-collection defaults.
 5. [ ] Fill in SEO/social metadata in _config.yml (site description, social.links, twitter username, og_image) and verify jekyll-sitemap/jekyll-feed output.
 6. [ ] Decide whether to enable the jemoji plugin (it is whitelisted but not enabled) or remove it from whitelist to reduce confusion.
 7. [ ] Review necessity of jekyll-archives: either enable it with proper layouts or remove the gem from Gemfile to reduce build surface area.
 8. [ ] Create/verify tag and category archive pages under _pages that match category_archive/tag_archive config (Liquid-driven archives).
-9. [ ] Ensure _config.dev.yml turns off analytics and comments providers for local dev; align with chosen comments strategy.
-10. [ ] Modernize Node toolchain: update engines.node (>=14) in package.json and plan migration from uglify-js v2 to terser or uglify-js v3 for ES compatibility.
+9. [x] Ensure _config.dev.yml turns off analytics and comments provider for local dev; align with chosen comments strategy.
+10. [x] Modernize Node toolchain: update engines.node (>=14) in package.json and plan migration from uglify-js v2 to terser or uglify-js v3 for ES compatibility.
 11. [ ] Replace legacy uglify script with a terser-based build (keeping exact concat order) and verify assets\js\main.min.js builds identically/minimally.
-12. [ ] Add an npm script alias "build" that runs both JS build and a Jekyll build for local inspection (document in README).
-13. [ ] Ensure assets\js\main.min.js is committed (since GitHub Pages won’t run Node); document this requirement in README.
+12. [x] Add an npm script alias "build" that runs both JS build and a Jekyll build for local inspection (document in README).
+13. [x] Ensure assets\js\main.min.js is committed (since GitHub Pages won’t run Node); document this requirement in README.
 14. [ ] Audit assets/js/plugins and vendor usage; remove unused plugins (e.g., magnific-popup if not used) to shrink JS bundle size.
 15. [ ] Add ESLint with a minimal config (browser, jquery) to catch common JS issues; integrate as npm script (npm run lint).
 16. [ ] Add Prettier (or EditorConfig-only) for consistent code style; document formatting conventions in CONTRIBUTING.md.
