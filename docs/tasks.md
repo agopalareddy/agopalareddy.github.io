@@ -2,10 +2,10 @@
 2. [x] Update README.md with Windows-friendly local workflow from guidelines (bundle exec jekyll liveserve --config _config.yml,_config.dev.yml; npm run build:js; troubleshooting tips for webrick/wdm).
 3. [x] Add a CONTRIBUTING.md section on content conventions (front matter defaults, categories/tags, file locations for pages vs. collections).
 4. [x] Establish a clear comments strategy: either configure Staticman/Disqus or disable comments by default in _config.yml and per-collection defaults.
-5. [ ] Fill in SEO/social metadata in _config.yml (site description, social.links, twitter username, og_image) and verify jekyll-sitemap/jekyll-feed output.
-6. [ ] Decide whether to enable the jemoji plugin (it is whitelisted but not enabled) or remove it from whitelist to reduce confusion.
-7. [ ] Review necessity of jekyll-archives: either enable it with proper layouts or remove the gem from Gemfile to reduce build surface area.
-8. [ ] Create/verify tag and category archive pages under _pages that match category_archive/tag_archive config (Liquid-driven archives).
+5. [x] Fill in SEO/social metadata in _config.yml (site description, social.links, twitter username, og_image) and verify jekyll-sitemap/jekyll-feed output.
+6. [x] Decide whether to enable the jemoji plugin (it is whitelisted but not enabled) or remove it from whitelist to reduce confusion.
+7. [x] Review necessity of jekyll-archives: either enable it with proper layouts or remove the gem from Gemfile to reduce build surface area.
+8. [x] Create/verify tag and category archive pages under _pages that match category_archive/tag_archive config (Liquid-driven archives).
 9. [x] Ensure _config.dev.yml turns off analytics and comments provider for local dev; align with chosen comments strategy.
 10. [x] Modernize Node toolchain: update engines.node (>=14) in package.json and plan migration from uglify-js v2 to terser or uglify-js v3 for ES compatibility.
 11. [ ] Replace legacy uglify script with a terser-based build (keeping exact concat order) and verify assets\js\main.min.js builds identically/minimally.
@@ -21,7 +21,7 @@
 21. [ ] Add width/height attributes to images to reduce CLS; ensure alt text is present and meaningful on all images.
 22. [ ] Accessibility pass: verify heading hierarchy, color contrast, focus outlines, link text clarity, and add skip-to-content link in layout if missing.
 23. [ ] Performance pass: audit with Lighthouse; defer or async non-critical scripts, preconnect to required origins (e.g., fonts), and minimize unused CSS/JS.
-24. [ ] Add a 404 page (if missing) and ensure it inherits site navigation and has helpful links.
+24. [x] Add a 404 page (if missing) and ensure it inherits site navigation and has helpful links.
 25. [ ] Verify talk/project/publication collection layouts render required metadata; adjust defaults to set author_profile/share/comments appropriately per type.
 26. [ ] Review permalink structure and existing content slugs for consistency and backward compatibility; add jekyll-redirect-from where URLs changed.
 27. [ ] Decide on analytics provider (Google, custom, or none) and configure it; ensure analytics disabled in development via _config.dev.yml.
@@ -35,7 +35,7 @@
 35. [ ] Ensure markdown_generator outputs are idempotent and don’t overwrite manual edits; consider adding a data/ source-of-truth note.
 36. [ ] Update .gitignore to exclude transient artifacts (e.g., .DS_Store, Thumbs.db, .jekyll-cache) and notebook checkpoints.
 37. [ ] Add repository labels and issue templates for content requests vs. code changes to streamline contributions.
-38. [ ] Review timezone setting in _config.yml; set to the site owner’s actual timezone to ensure correct timestamps.
+38. [x] Review timezone setting in _config.yml; set to the site owner’s actual timezone to ensure correct timestamps.
 39. [ ] Verify pagination usage (jekyll-paginate) or remove if not needed; configure paginate_path if enabled.
 40. [ ] Evaluate using minimal number of third-party scripts; audit external calls (fonts, embeds) for privacy/performance.
 41. [ ] Ensure breadcrumbs and navigation reflect actual IA; update _data/navigation.yml (if present) or _includes to match desired structure.
