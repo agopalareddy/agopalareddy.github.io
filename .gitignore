@@ -1,5 +1,9 @@
 .gitignore
 _site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+.bundle/
 
 files/cv_tex/*
 !files/cv_tex/*.tex
@@ -12,3 +16,7 @@ files/resume_tex/*
 files/resume_tex_jobs
 files/cover_tex
 files/JOB_APPS
+
+# OS/filesystem noise
+.DS_Store
+Thumbs.db
