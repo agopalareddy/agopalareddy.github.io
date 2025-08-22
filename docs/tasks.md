@@ -15,7 +15,7 @@
 15. [x] Add ESLint with a minimal config (browser, jquery) to catch common JS issues; integrate as npm script (npm run lint).
 16. [x] Add Prettier (or EditorConfig-only) for consistent code style; document formatting conventions in CONTRIBUTING.md.
 17. [x] Review Sass structure under _sass; group partials logically and ensure variables/mixins are centralized; keep dev output expanded via _config.dev.yml.
-18. [ ] Add a simple stylelint config to catch Sass/CSS issues; integrate as npm script (npm run lint:css) if desired.
+18. [x] Add a simple stylelint config to catch Sass/CSS issues; integrate as npm script (npm run lint:css) if desired.
 19. [ ] Optimize image assets: lossless compression of images/ and creation of appropriately sized variants where needed.
 20. [ ] Adopt responsive images for large hero/portfolio media (srcset/sizes) and lazy-load (loading="lazy") where it doesn’t impact LCP.
 21. [ ] Add width/height attributes to images to reduce CLS; ensure alt text is present and meaningful on all images.
