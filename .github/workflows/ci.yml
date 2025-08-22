@@ -18,9 +18,6 @@ jobs:
           ruby-version: '3.3'
           bundler-cache: true
 
-      - name: Install Bundler deps
-        run: |
-          bundle install --path vendor/bundle
 
       - name: Setup Node
         uses: actions/setup-node@v4
