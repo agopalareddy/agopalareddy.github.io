@@ -11,7 +11,7 @@
 11. [x] Replace legacy uglify script with a terser-based build (keeping exact concat order) and verify assets\js\main.min.js builds identically/minimally.
 12. [x] Add an npm script alias "build" that runs both JS build and a Jekyll build for local inspection (document in README).
 13. [x] Ensure assets\js\main.min.js is committed (since GitHub Pages won’t run Node); document this requirement in README.
-14. [ ] Audit assets/js/plugins and vendor usage; remove unused plugins (e.g., magnific-popup if not used) to shrink JS bundle size.
+14. [x] Audit assets/js/plugins and vendor usage; remove unused plugins (e.g., magnific-popup if not used) to shrink JS bundle size.
 15. [ ] Add ESLint with a minimal config (browser, jquery) to catch common JS issues; integrate as npm script (npm run lint).
 16. [ ] Add Prettier (or EditorConfig-only) for consistent code style; document formatting conventions in CONTRIBUTING.md.
 17. [ ] Review Sass structure under _sass; group partials logically and ensure variables/mixins are centralized; keep dev output expanded via _config.dev.yml.
