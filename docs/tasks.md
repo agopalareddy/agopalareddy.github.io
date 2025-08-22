@@ -27,25 +27,25 @@
 27. [ ] Decide on analytics provider (Google, custom, or none) and configure it; ensure analytics disabled in development via _config.dev.yml.
 28. [ ] Populate author and social profile fields in _config.yml (GitHub, LinkedIn, Scholar, ORCID as applicable) for richer SEO JSON-LD.
 29. [ ] Add structured data (JSON-LD) for Person/Organization in head include if desired, using fields from _config.yml.
-30. [ ] Configure a GitHub Actions workflow to run bundle exec jekyll build and npm run build:js on pull requests to catch build errors (no deploy).
+30. [x] Configure a GitHub Actions workflow to run bundle exec jekyll build and npm run build:js on pull requests to catch build errors (no deploy).
 31. [ ] Optionally extend CI with html-proofer to check internal links, images, and HTML validity; allowlist external domains as needed.
-32. [ ] Enable Dependabot (or Renovate) for Ruby and Node dependencies to surface security and update PRs.
-33. [ ] Add a basic smoke-test script (PowerShell) that runs npm run build:js and bundle exec jekyll build --config _config.yml,_config.dev.yml and validates _site index exists.
+32. [x] Enable Dependabot (or Renovate) for Ruby and Node dependencies to surface security and update PRs.
+33. [x] Add a basic smoke-test script (PowerShell) that runs npm run build:js and bundle exec jekyll build --config _config.yml,_config.dev.yml and validates _site index exists.
 34. [ ] Document the markdown_generator scripts: inputs (TSV/Bib), outputs, and a step-by-step guide to regenerate content safely.
 35. [ ] Ensure markdown_generator outputs are idempotent and don’t overwrite manual edits; consider adding a data/ source-of-truth note.
-36. [ ] Update .gitignore to exclude transient artifacts (e.g., .DS_Store, Thumbs.db, .jekyll-cache) and notebook checkpoints.
+36. [x] Update .gitignore to exclude transient artifacts (e.g., .DS_Store, Thumbs.db, .jekyll-cache) and notebook checkpoints.
 37. [ ] Add repository labels and issue templates for content requests vs. code changes to streamline contributions.
 38. [x] Review timezone setting in _config.yml; set to the site owner’s actual timezone to ensure correct timestamps.
 39. [ ] Verify pagination usage (jekyll-paginate) or remove if not needed; configure paginate_path if enabled.
 40. [ ] Evaluate using minimal number of third-party scripts; audit external calls (fonts, embeds) for privacy/performance.
 41. [ ] Ensure breadcrumbs and navigation reflect actual IA; update _data/navigation.yml (if present) or _includes to match desired structure.
-42. [ ] Create a backup/export plan for assets and content (at minimum document how to restore site from repo on a new machine).
+42. [x] Create a backup/export plan for assets and content (at minimum document how to restore site from repo on a new machine).
 43. [ ] Add a LICENSE and NOTICE section in README summarizing theme attribution (already present) and any additional assets’ licenses.
-44. [ ] Add pre-commit guidance (optional): run npm run build:js and jekyll build locally before pushing; consider Husky pre-commit hooks for linting.
+44. [x] Add pre-commit guidance (optional): run npm run build:js and jekyll build locally before pushing; consider Husky pre-commit hooks for linting.
 45. [ ] Remove unused configuration stubs (e.g., staticman settings) if the associated service will not be used.
 46. [ ] If using Disqus, set shortname per environment and enable via _config.yml; otherwise ensure comments: true defaults are turned off to avoid broken embeds.
 47. [ ] Verify talkmap tooling (talkmap.py, talkmap.ipynb) is documented; include instructions and outputs under talkmap/.
-48. [ ] Add a simple release checklist in docs (build JS, run Jekyll, verify _site, push) prior to merging to main.
+48. [x] Add a simple release checklist in docs (build JS, run Jekyll, verify _site, push) prior to merging to main.
 49. [ ] Consider adding Jekyll includes for common elements (contact buttons, social icons) to reduce duplication across pages.
 50. [ ] Periodically run bundle update (respecting github-pages constraints) and test locally; document steps for resolving Gem conflicts (delete Gemfile.lock, reinstall).
 51. [x] Migrate Node package manager to pnpm: declare packageManager in package.json, prefer pnpm commands in docs, remove package-lock.json, and generate/commit pnpm-lock.yaml on next install.

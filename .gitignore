@@ -1,22 +1,17 @@
-.gitignore
+# Ignore build outputs and caches
 _site/
 .jekyll-cache/
 .jekyll-metadata
 .sass-cache/
 .bundle/
 
-files/cv_tex/*
-!files/cv_tex/*.tex
-!files/cv_tex/*.sty
-!files/cv_tex/*.pdf
-files/resume_tex/*
-!files/resume_tex/*.tex
-!files/resume_tex/*.sty
-!files/resume_tex/*.pdf
-files/resume_tex_jobs
-files/cover_tex
-files/JOB_APPS
+# Node
+node_modules/
+assets/js/main.min.js
 
 # OS/filesystem noise
 .DS_Store
 Thumbs.db
+
+# Notebooks
+.ipynb_checkpoints/

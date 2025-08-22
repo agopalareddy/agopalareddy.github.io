@@ -38,6 +38,13 @@ To keep content consistent and easy to maintain, please follow these conventions
   - If you change any files under `assets/js`, run `npm run build:js` and commit the generated `assets/js/main.min.js` (GitHub Pages does not run Node tasks).
   - Keep Sass under `_sass/`; dev builds use expanded output for easier debugging.
 
+## Pre-commit checks (recommended)
+
+- Lint JS: `pnpm run lint`
+- Lint Sass (optional): `pnpm run lint:css`
+- Build JS: `pnpm run build:js` (commit updated `assets\\js\\main.min.js` if it changes)
+- Build site: `bundle exec jekyll build --config _config.yml,_config.dev.yml`
+
 ## Local development
 
 - Use Bundler to mirror the GitHub Pages environment:

@@ -7,6 +7,9 @@
     }
   ],
   "rules": {
-    "no-empty-source": null
+    "no-empty-source": null,
+    "scss/no-global-function-names": null,
+    "selector-class-pattern": null,
+    "at-rule-no-vendor-prefix": null
   }
 }

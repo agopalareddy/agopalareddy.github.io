@@ -1,0 +1,44 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [ master, main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+
+      - name: Install Bundler deps
+        run: |
+          bundle install --path vendor/bundle
+
+      - name: Setup Node and pnpm
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'pnpm'
+      - name: Enable Corepack
+        run: corepack enable
+      - name: Use pnpm 9
+        run: corepack prepare pnpm@9 --activate
+
+      - name: Install Node deps
+        run: pnpm install --frozen-lockfile
+
+      - name: Build JS
+        run: pnpm run build:js
+
+      - name: Build Jekyll
+        run: bundle exec jekyll build --config _config.yml,_config.dev.yml --verbose
+
+      - name: Verify site output
+        run: test -f _site/index.html
