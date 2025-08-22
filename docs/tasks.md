@@ -48,3 +48,4 @@
 48. [ ] Add a simple release checklist in docs (build JS, run Jekyll, verify _site, push) prior to merging to main.
 49. [ ] Consider adding Jekyll includes for common elements (contact buttons, social icons) to reduce duplication across pages.
 50. [ ] Periodically run bundle update (respecting github-pages constraints) and test locally; document steps for resolving Gem conflicts (delete Gemfile.lock, reinstall).
+51. [x] Migrate Node package manager to pnpm: declare packageManager in package.json, prefer pnpm commands in docs, remove package-lock.json, and generate/commit pnpm-lock.yaml on next install.

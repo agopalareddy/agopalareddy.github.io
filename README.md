@@ -39,12 +39,12 @@ Use PowerShell and the pinned GitHub Pages environment via Bundler so local buil
 Prerequisites (Windows):
 - Ruby (RubyInstaller for Windows with MSYS2/DevKit recommended)
 - Bundler (`gem install bundler` if missing)
-- Node.js >= 14 (`node -v` to verify)
+- Node.js >= 14 (`node -v` to verify) and pnpm (`npm i -g pnpm` or use Corepack: `corepack enable && corepack prepare pnpm@9 --activate`)
 
 One-time setup:
 - `bundle clean`
 - `bundle install`
-- `npm install`
+- `pnpm install`  (preferred; npm install also works)
 
 Develop with live reload:
 - `bundle exec jekyll liveserve --config _config.yml,_config.dev.yml`
@@ -54,9 +54,9 @@ Build without serving:
 - `bundle exec jekyll build --config _config.yml,_config.dev.yml`
 
 JavaScript pipeline:
-- Build JS once: `npm run build:js`
-- Watch JS files and rebuild on change: `npm run watch:js`
-- Convenience build (JS + Jekyll build): `npm run build`
+- Build JS once: `pnpm run build:js` (or `npm run build:js`)
+- Watch JS files and rebuild on change: `pnpm run watch:js` (or `npm run watch:js`)
+- Convenience build (JS + Jekyll build): `pnpm run build` (or `npm run build`)
 
 Important: GitHub Pages does not run Node tasks. If you change any JS under assets\js that impacts the bundle, you must commit the generated `assets\js\main.min.js` so production sees the update.
 

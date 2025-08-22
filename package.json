@@ -17,6 +17,7 @@
     "url": "https://github.com/mmistakes/minimal-mistakes/issues"
   },
   "homepage": "https://mmistakes.github.io/minimal-mistakes/",
+  "packageManager": "pnpm@9.0.0",
   "engines": {
     "node": ">=14"
   },
