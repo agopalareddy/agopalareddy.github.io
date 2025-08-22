@@ -8,7 +8,7 @@
 8. [x] Create/verify tag and category archive pages under _pages that match category_archive/tag_archive config (Liquid-driven archives).
 9. [x] Ensure _config.dev.yml turns off analytics and comments provider for local dev; align with chosen comments strategy.
 10. [x] Modernize Node toolchain: update engines.node (>=14) in package.json and plan migration from uglify-js v2 to terser or uglify-js v3 for ES compatibility.
-11. [ ] Replace legacy uglify script with a terser-based build (keeping exact concat order) and verify assets\js\main.min.js builds identically/minimally.
+11. [x] Replace legacy uglify script with a terser-based build (keeping exact concat order) and verify assets\js\main.min.js builds identically/minimally.
 12. [x] Add an npm script alias "build" that runs both JS build and a Jekyll build for local inspection (document in README).
 13. [x] Ensure assets\js\main.min.js is committed (since GitHub Pages won’t run Node); document this requirement in README.
 14. [ ] Audit assets/js/plugins and vendor usage; remove unused plugins (e.g., magnific-popup if not used) to shrink JS bundle size.
