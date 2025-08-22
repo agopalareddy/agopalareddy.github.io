@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "eslint": "^9.11.0",
-    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-jsdoc": "^48.2.7",
     "eslint-plugin-n": "^17.10.3",
     "eslint-plugin-promise": "^7.1.0",
