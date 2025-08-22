@@ -1,0 +1,32 @@
+name: Bug report or code change
+about: Report a bug, request a code change, or propose a refactor
+labels: 
+  - code
+  - needs-triage
+title: "[Code] <short description>"
+body:
+  - type: textarea
+    attributes:
+      label: Summary
+      description: What’s the problem or proposal?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to Reproduce (if a bug)
+      description: Include commands and expected vs. actual behavior
+      value: |
+        1.
+        2.
+        3.
+  - type: textarea
+    attributes:
+      label: Proposed Change
+      description: If proposing a change/refactor, outline the approach and any risks.
+  - type: checkboxes
+    attributes:
+      label: Checks
+      options:
+        - label: I ran `bundle exec jekyll build --config _config.yml,_config.dev.yml` locally.
+        - label: I ran `pnpm run build:js` if I changed JS.
+        - label: I ran `pnpm run lint` and `pnpm run lint:css` (if applicable).

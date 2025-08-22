@@ -1,0 +1,14 @@
+{% assign author = site.author %}
+{% assign social_links = site.social.links | default: site.author %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": {{ author.name | jsonify }},
+  {% if author.email %}"email": {{ author.email | jsonify }},{% endif %}
+  {% if author.location %}"address": {{ author.location | jsonify }},{% endif %}
+  {% if site.url %}"url": {{ site.url | jsonify }},{% endif %}
+  {% if site.og_image %}"image": {{ site.og_image | jsonify }},{% endif %}
+  "sameAs": {{ site.social.links | jsonify }}
+}
+</script>

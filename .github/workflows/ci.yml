@@ -39,3 +39,9 @@ jobs:
 
       - name: Verify site output
         run: test -f _site/index.html
+
+      - name: HTML Proofer (internal links)
+        continue-on-error: true
+        run: |
+          gem install html-proofer --no-document
+          htmlproofer ./_site --disable-external --allow_hash_href --check-html

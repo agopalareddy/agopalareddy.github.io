@@ -1,0 +1,27 @@
+name: Content request
+about: Request new or updated content (posts, projects, publications, pages)
+labels:
+  - content
+  - needs-triage
+title: "[Content] <short description>"
+body:
+  - type: textarea
+    attributes:
+      label: Summary
+      description: What content needs to be added or updated?
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Target location
+      placeholder: e.g., _posts/ or _projects/
+  - type: textarea
+    attributes:
+      label: Details
+      description: Provide text, links, files, or instructions.
+  - type: checkboxes
+    attributes:
+      label: Checks
+      options:
+        - label: I included required front matter (title, date, categories/tags as appropriate).
+        - label: I verified preview locally with `bundle exec jekyll build --config _config.yml,_config.dev.yml`.

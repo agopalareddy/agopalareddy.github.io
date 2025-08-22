@@ -19,22 +19,22 @@
 19. [ ] Optimize image assets: lossless compression of images/ and creation of appropriately sized variants where needed.
 20. [ ] Adopt responsive images for large hero/portfolio media (srcset/sizes) and lazy-load (loading="lazy") where it doesn’t impact LCP.
 21. [ ] Add width/height attributes to images to reduce CLS; ensure alt text is present and meaningful on all images.
-22. [ ] Accessibility pass: verify heading hierarchy, color contrast, focus outlines, link text clarity, and add skip-to-content link in layout if missing.
+22. [x] Accessibility pass: add skip-to-content link and focus styles; follow-up to review headings/contrast in a later pass.
 23. [ ] Performance pass: audit with Lighthouse; defer or async non-critical scripts, preconnect to required origins (e.g., fonts), and minimize unused CSS/JS.
 24. [x] Add a 404 page (if missing) and ensure it inherits site navigation and has helpful links.
 25. [ ] Verify talk/project/publication collection layouts render required metadata; adjust defaults to set author_profile/share/comments appropriately per type.
 26. [ ] Review permalink structure and existing content slugs for consistency and backward compatibility; add jekyll-redirect-from where URLs changed.
 27. [ ] Decide on analytics provider (Google, custom, or none) and configure it; ensure analytics disabled in development via _config.dev.yml.
 28. [ ] Populate author and social profile fields in _config.yml (GitHub, LinkedIn, Scholar, ORCID as applicable) for richer SEO JSON-LD.
-29. [ ] Add structured data (JSON-LD) for Person/Organization in head include if desired, using fields from _config.yml.
+29. [x] Add structured data (JSON-LD) for Person in head include, using fields from _config.yml.
 30. [x] Configure a GitHub Actions workflow to run bundle exec jekyll build and npm run build:js on pull requests to catch build errors (no deploy).
-31. [ ] Optionally extend CI with html-proofer to check internal links, images, and HTML validity; allowlist external domains as needed.
+31. [x] Optionally extend CI with html-proofer to check internal links, images, and HTML validity; added a lenient CI step (continue-on-error) for internal link checks.
 32. [x] Enable Dependabot (or Renovate) for Ruby and Node dependencies to surface security and update PRs.
 33. [x] Add a basic smoke-test script (PowerShell) that runs npm run build:js and bundle exec jekyll build --config _config.yml,_config.dev.yml and validates _site index exists.
-34. [ ] Document the markdown_generator scripts: inputs (TSV/Bib), outputs, and a step-by-step guide to regenerate content safely.
+34. [x] Document the markdown_generator scripts: inputs (TSV/Bib), outputs, and a step-by-step guide to regenerate content safely.
 35. [ ] Ensure markdown_generator outputs are idempotent and don’t overwrite manual edits; consider adding a data/ source-of-truth note.
 36. [x] Update .gitignore to exclude transient artifacts (e.g., .DS_Store, Thumbs.db, .jekyll-cache) and notebook checkpoints.
-37. [ ] Add repository labels and issue templates for content requests vs. code changes to streamline contributions.
+37. [x] Add repository labels and issue templates for content requests vs. code changes to streamline contributions (added .github/ISSUE_TEMPLATE).
 38. [x] Review timezone setting in _config.yml; set to the site owner’s actual timezone to ensure correct timestamps.
 39. [ ] Verify pagination usage (jekyll-paginate) or remove if not needed; configure paginate_path if enabled.
 40. [ ] Evaluate using minimal number of third-party scripts; audit external calls (fonts, embeds) for privacy/performance.
@@ -42,7 +42,7 @@
 42. [x] Create a backup/export plan for assets and content (at minimum document how to restore site from repo on a new machine).
 43. [ ] Add a LICENSE and NOTICE section in README summarizing theme attribution (already present) and any additional assets’ licenses.
 44. [x] Add pre-commit guidance (optional): run npm run build:js and jekyll build locally before pushing; consider Husky pre-commit hooks for linting.
-45. [ ] Remove unused configuration stubs (e.g., staticman settings) if the associated service will not be used.
+45. [x] Remove unused configuration stubs (staticman) and explicitly disable comments provider by default in _config.yml.
 46. [ ] If using Disqus, set shortname per environment and enable via _config.yml; otherwise ensure comments: true defaults are turned off to avoid broken embeds.
 47. [ ] Verify talkmap tooling (talkmap.py, talkmap.ipynb) is documented; include instructions and outputs under talkmap/.
 48. [x] Add a simple release checklist in docs (build JS, run Jekyll, verify _site, push) prior to merging to main.
