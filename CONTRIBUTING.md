@@ -51,6 +51,20 @@ To keep content consistent and easy to maintain, please follow these conventions
 - Comments are disabled by default in `_config.yml` and in development via `_config.dev.yml`.
 - If you plan to enable Disqus or another provider, document the provider configuration and only enable `comments: true` on specific pages.
 
+## JavaScript linting and formatting
+
+To keep code quality consistent and avoid style drift, please use the following tools:
+
+- Lint JavaScript (ESLint):
+  - Install deps: `npm install`
+  - Run linter: `npm run lint`
+  - Scope: Lints our main custom file `assets/js/_main.js` (vendor/plugins and minified files are ignored).
+- Format code (Prettier):
+  - Run formatter: `npm run format`
+  - Scope: Formats `assets/js/_main.js`. Do not format vendor or minified files.
+
+If you modify `assets/js/_main.js`, after linting/formatting, rebuild and commit the bundle `assets/js/main.min.js` using `npm run build:js` because GitHub Pages does not run Node tasks.
+
 ## Pull request guidelines
 
 - Keep changes scoped and include a brief rationale in the PR description.

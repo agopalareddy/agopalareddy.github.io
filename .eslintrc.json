@@ -1,0 +1,31 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es6": false
+  },
+  "parserOptions": {
+    "ecmaVersion": 5,
+    "sourceType": "script"
+  },
+  "globals": {
+    "$": "readonly",
+    "jQuery": "readonly",
+    "document": "readonly",
+    "window": "readonly"
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:n/recommended",
+    "plugin:promise/recommended",
+    "plugin:jsdoc/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "no-var": "off",
+    "prefer-const": "off",
+    "eqeqeq": ["warn", "smart"],
+    "no-unused-vars": ["warn", { "vars": "all", "args": "none" }],
+    "no-console": "off"
+  }
+}

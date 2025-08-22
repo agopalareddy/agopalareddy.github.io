@@ -1,0 +1,6 @@
+_site/
+node_modules/
+assets/js/main.min.js
+assets/js/vendor/
+assets/js/plugins/
+*.min.js
