@@ -65,6 +65,12 @@ To keep code quality consistent and avoid style drift, please use the following 
 
 If you modify `assets/js/_main.js`, after linting/formatting, rebuild and commit the bundle `assets/js/main.min.js` using `npm run build:js` because GitHub Pages does not run Node tasks.
 
+## CSS/Sass linting
+
+- Lint styles: `pnpm run lint:css` (or `npm run lint:css`)
+- Auto-fix common issues: `pnpm run format:css`
+- Scope: checks `_sass/**/*.scss` using stylelint with the standard-scss config. In development, Sass output is expanded (see `_config.dev.yml`).
+
 ## Pull request guidelines
 
 - Keep changes scoped and include a brief rationale in the PR description.
