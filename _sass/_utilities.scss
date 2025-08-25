@@ -113,7 +113,7 @@ body:hover .visually-hidden button {
 }
 
 .wrapper {
-  @include container();
+  @include container;
 }
 
 /*
@@ -168,7 +168,7 @@ body:hover .visually-hidden button {
 
 .icon {
   display: inline-block;
-  fill: currentColor;
+  fill: currentcolor;
   width: 1em;
   height: 1.1em;
   line-height: 1;
@@ -177,7 +177,7 @@ body:hover .visually-hidden button {
   vertical-align: middle;
 }
 
-/* social icons*/
+/* social icons */
 
 .social-icons {
   .fa {
@@ -397,51 +397,46 @@ body:hover .visually-hidden button {
   height: $navicon-height;
   background: #fff;
   margin: auto;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 
-  &:before,
-  &:after {
+  &::before,
+  &::after {
     content: "";
     position: absolute;
     left: 0;
     width: $navicon-width;
     height: $navicon-height;
     background: #fff;
-    -webkit-transition: 0.3s;
     transition: 0.3s;
   }
 
-  &:before {
+  &::before {
     top: (-2 * $navicon-height);
   }
 
-  &:after {
+  &::after {
     bottom: (-2 * $navicon-height);
   }
 }
 
 .close .navicon {
-  /* hide the middle line*/
+  /* hide the middle line */
   background: transparent;
 
-  /* overlay the lines by setting both their top values to 0*/
-  &:before,
-  &:after {
-    -webkit-transform-origin: 50% 50%;
-    -ms-transform-origin: 50% 50%;
+  /* overlay the lines by setting both their top values to 0 */
+  &::before,
+  &::after {
     transform-origin: 50% 50%;
     top: 0;
     width: $navicon-width;
   }
 
-  /* rotate the lines to form the x shape*/
-  &:before {
-    -webkit-transform: rotate3d(0, 0, 1, 45deg);
+  /* rotate the lines to form the x shape */
+  &::before {
     transform: rotate3d(0, 0, 1, 45deg);
   }
-  &:after {
-    -webkit-transform: rotate3d(0, 0, 1, -45deg);
+
+  &::after {
     transform: rotate3d(0, 0, 1, -45deg);
   }
 }
@@ -452,8 +447,8 @@ body:hover .visually-hidden button {
 
 .sticky {
   @include breakpoint($large) {
-    @include clearfix();
-    position: -webkit-sticky;
+    @include clearfix;
+
     position: sticky;
     top: 2em;
 
@@ -485,7 +480,7 @@ body:hover .visually-hidden button {
   overflow: hidden;
   position: relative;
 
-  &:before {
+  &::before {
     position: absolute;
     content: "";
     top: 0;
@@ -522,7 +517,7 @@ body:hover .visually-hidden button {
   }
 
   &__supporting-text {
-    padding: 0 1em 0.5em 1em;
+    padding: 0 1em 0.5em;
   }
 
   &__actions {
