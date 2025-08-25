@@ -65,3 +65,17 @@ Troubleshooting:
 - If you see `cannot load such file -- webrick`, ensure `webrick` is installed (it is already in the Gemfile) and re-run with `bundle exec`.
 - If file watching doesn’t pick up changes on Windows, ensure `wdm` is installed (Bundler installs it from the Gemfile) and that you’re running PowerShell with appropriate permissions.
 - If `bundle install` reports version conflicts, try deleting `Gemfile.lock`, then run `bundle install` again.
+
+### Local dev WEBrick NoMethodError workaround (Jekyll 3.9.x)
+
+When serving locally you may see repeated errors like:
+
+```
+NoMethodError: undefined method `key?' for nil:NilClass
+  .../jekyll-3.9.x/lib/jekyll/commands/serve/servlet.rb:...:in `conditionally_inject_charset'
+```
+
+This is a known incompatibility in Jekyll 3.9.x with newer WEBrick versions during live-serve. This repository ships a small dev-only patch at `_plugins/charset_injection_patch.rb` that defensively guards that method and preserves original return values. GitHub Pages ignores plugins, so this does not affect production builds.
+
+- Keep this patch only for local development. After upgrading to Jekyll 4 (or when upstream fixes this in your environment), you can remove `_plugins/charset_injection_patch.rb`.
+- Alternative: if you prefer not to load the patch, you can use `bundle exec jekyll serve --livereload --config _config.yml,_config.dev.yml` instead of `liveserve`.

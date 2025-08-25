@@ -17,19 +17,26 @@ module CharsetInjectionPatch
     return if servlet.instance_variable_defined?(:@_charset_patch_applied)
 
     mod = Module.new do
-      # Keep arity flexible in case upstream changes
+      # Handle both 2-arg and 3-arg variants: (headers, type) or (headers, type, body)
       def conditionally_inject_charset(*args)
         headers = args[0] if args.length >= 1
         type    = args[1] if args.length >= 2
+        body    = args[2] if args.length >= 3
 
-        # If headers is nil or not hash-like, bail out and return original type
-        return type if headers.nil? || !headers.respond_to?(:key?)
+        # If headers is nil or not hash-like, bail out and preserve the original return shape
+        if headers.nil? || !headers.respond_to?(:key?)
+          return if args.length < 2 # nothing sensible to return
+          return type if args.length == 2
+          return [headers, type, body]
+        end
 
         # Otherwise, defer to the original implementation
         super(*args)
       rescue NoMethodError
-        # If anything else goes wrong here, fail-safe by returning the type unchanged
-        type
+        # If anything else goes wrong here, fail-safe by preserving the original return shape
+        return if args.length < 2
+        return type if args.length == 2
+        [headers, type, body]
       end
     end
 
