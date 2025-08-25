@@ -1,0 +1,47 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250822025540
+Username: ROG-FLOW-X13\adurs
+RunAs User: ROG-FLOW-X13\adurs
+Configuration Name: 
+Machine: ROG-FLOW-X13 (Microsoft Windows NT 10.0.26100.0)
+Host Application: powershell.exe -NoExit -ExecutionPolicy Bypass -File C:\Users\adurs\AppData\Local\Programs\WebStorm\plugins\terminal\shell-integrations\powershell\powershell-integration.ps1
+Process ID: 46996
+PSVersion: 5.1.26100.4768
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.4768
+BuildVersion: 10.0.26100.4768
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+==> Ensuring JS dependencies and building bundle
+Lockfile is up to date, resolution step is skipped
+Already up to date
+
+devDependencies:
++ eslint 9.33.0
++ eslint-config-prettier 9.1.2
++ eslint-plugin-jsdoc 48.11.0
++ eslint-plugin-n 17.21.3
++ eslint-plugin-promise 7.2.1
++ npm-run-all 1.8.0
++ onchange 7.1.0
++ postcss 8.5.6
++ postcss-scss 4.0.9
++ prettier 3.6.2
++ stylelint 16.23.1
++ stylelint-config-standard-scss 13.1.0
++ terser 5.43.1
+
+Done in 1.8s
+.magnific-popup.js assets/js/plugins/jquery.smooth-scroll.min.js assets/js/plugi
+ns/stickyfill.min.js assets/js/_main.js -c -m -o assets/js/main.min.js
+==> Building Jekyll site
+
+SUCCESS: JS and Jekyll build completed. Output at _site
+**********************
+Windows PowerShell transcript end
+End time: 20250822025556
+**********************
