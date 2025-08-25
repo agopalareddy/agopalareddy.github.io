@@ -7,6 +7,12 @@ author_profile: true
 
 Below is my up-to-date availability calendar. Feel free to pick a time that works.
 
+<p>
+  <a class="btn btn--primary" href="https://calendar.app.google/rbrkCokvTAM6tb7i7" target="_blank" rel="noopener" aria-label="Book an appointment (opens in a new tab)">
+    Book an appointment
+  </a>
+</p>
+
 <iframe
   src="https://calendar.google.com/calendar/embed?src=90e3e7baecc6c8fb063ea0e230c0040bfe5ce8d086c944a9351720d1e9d72b9e%40group.calendar.google.com&ctz=America%2FChicago&mode=WEEK"
   style="border:0;width:100%;height:800px;"
