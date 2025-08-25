@@ -20,7 +20,7 @@ Steps to restore locally (Windows PowerShell):
 - pnpm run build:js
 
 4) Serve/build site
-- bundle exec jekyll liveserve --config _config.yml,_config.dev.yml
+- bundle exec jekyll serve --livereload --config _config.yml,_config.dev.yml
   or
 - bundle exec jekyll build --config _config.yml,_config.dev.yml
 

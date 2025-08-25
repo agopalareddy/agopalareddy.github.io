@@ -49,7 +49,7 @@ To keep content consistent and easy to maintain, please follow these conventions
 
 - Use Bundler to mirror the GitHub Pages environment:
   - One-time setup: `bundle install`, `pnpm install` (preferred; `npm install` also works)
-  - Live server: `bundle exec jekyll liveserve --config _config.yml,_config.dev.yml`
+  - Live server: `bundle exec jekyll serve --livereload --config _config.yml,_config.dev.yml`
   - Build only: `bundle exec jekyll build --config _config.yml,_config.dev.yml`
   - JS build: `pnpm run build:js` (or `pnpm run build` to build JS and Jekyll together; `npm run ...` also works)
 

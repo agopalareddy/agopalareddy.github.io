@@ -38,7 +38,7 @@ The plan is organized by theme, with each section including rationale, proposed 
 ## 1) Build and Tooling (Ruby/Jekyll)
 Rationale: Stable local builds that mirror production reduce surprises and speed iteration.
 Proposed Changes:
-- Enforce running Jekyll via bundle exec; document Windows-friendly commands (liveserve/serve with --config _config.yml,_config.dev.yml).
+- Enforce running Jekyll via bundle exec; document Windows-friendly commands (serve --livereload with --config _config.yml,_config.dev.yml).
 - Ensure Gemfile includes webrick (Ruby 3) and wdm (Windows watching) — already present; keep.
 - If jekyll-archives isn’t enabled in _config.yml, consider removing the gem to reduce surface area unless we add archive layouts (see Archives section).
 - Keep timezone accurate in _config.yml for correct timestamps.
