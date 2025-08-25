@@ -79,3 +79,14 @@ This is a known incompatibility in Jekyll 3.9.x with newer WEBrick versions duri
 
 - Keep this patch only for local development. After upgrading to Jekyll 4 (or when upstream fixes this in your environment), you can remove `_plugins/charset_injection_patch.rb`.
 - Alternative: if you prefer not to load the patch, you can use `bundle exec jekyll serve --livereload --config _config.yml,_config.dev.yml` instead of `liveserve`.
+
+## License and Notices
+
+- Repository license: MIT (see `LICENSE`).
+- Theme attribution: This site is based on Minimal Mistakes and academicpages, both released under the MIT License. Attribution to Michael Rose (Minimal Mistakes) and academicpages is retained in this repository.
+- JavaScript/CSS third-party assets:
+  - Leaflet and related assets under `talkmap/leaflet_dist` are included as distributed and are licensed under their respective licenses (Leaflet is BSD-2-Clause). See headers/NOTICE files in that directory for details.
+- Site content (Markdown, images, PDFs) is © the site owner (Aadarsha Gopala Reddy) or the respective rights holders. Do not reuse without permission unless otherwise stated.
+- Any additional third-party fonts/embeds used by pages/posts retain their own licenses/terms.
+
+If you add new third-party assets, include appropriate attribution and license files in the repository (e.g., alongside the asset or in a NOTICE file).

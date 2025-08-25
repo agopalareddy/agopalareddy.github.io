@@ -36,15 +36,15 @@
 36. [x] Update .gitignore to exclude transient artifacts (e.g., .DS_Store, Thumbs.db, .jekyll-cache) and notebook checkpoints.
 37. [x] Add repository labels and issue templates for content requests vs. code changes to streamline contributions (added .github/ISSUE_TEMPLATE).
 38. [x] Review timezone setting in _config.yml; set to the site owner’s actual timezone to ensure correct timestamps.
-39. [ ] Verify pagination usage (jekyll-paginate) or remove if not needed; configure paginate_path if enabled.
+39. [x] Verify pagination usage (jekyll-paginate) or remove if not needed; configure paginate_path if enabled.
 40. [ ] Evaluate using minimal number of third-party scripts; audit external calls (fonts, embeds) for privacy/performance.
 41. [ ] Ensure breadcrumbs and navigation reflect actual IA; update _data/navigation.yml (if present) or _includes to match desired structure.
 42. [x] Create a backup/export plan for assets and content (at minimum document how to restore site from repo on a new machine).
-43. [ ] Add a LICENSE and NOTICE section in README summarizing theme attribution (already present) and any additional assets’ licenses.
+43. [x] Add a LICENSE and NOTICE section in README summarizing theme attribution (already present) and any additional assets’ licenses.
 44. [x] Add pre-commit guidance (optional): run npm run build:js and jekyll build locally before pushing; consider Husky pre-commit hooks for linting.
 45. [x] Remove unused configuration stubs (staticman) and explicitly disable comments provider by default in _config.yml.
 46. [ ] If using Disqus, set shortname per environment and enable via _config.yml; otherwise ensure comments: true defaults are turned off to avoid broken embeds.
-47. [ ] Verify talkmap tooling (talkmap.py, talkmap.ipynb) is documented; include instructions and outputs under talkmap/.
+47. [x] Verify talkmap tooling (talkmap.py, talkmap.ipynb) is documented; include instructions and outputs under talkmap/.
 48. [x] Add a simple release checklist in docs (build JS, run Jekyll, verify _site, push) prior to merging to main.
 49. [ ] Consider adding Jekyll includes for common elements (contact buttons, social icons) to reduce duplication across pages.
 50. [ ] Periodically run bundle update (respecting github-pages constraints) and test locally; document steps for resolving Gem conflicts (delete Gemfile.lock, reinstall).
