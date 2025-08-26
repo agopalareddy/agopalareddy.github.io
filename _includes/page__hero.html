@@ -49,7 +49,7 @@
     {% endif %}
   </div>
   {% else %}
-  {% include responsive_image.html src=page.header.image alt=page.title class="page__hero-image" priority=true sizes="100vw" %}
+  <img src="{{ img_path }}" alt="{{ page.title }}" class="page__hero-image">
   {% endif %}
   {% if page.header.caption %}
   <span class="page__hero-caption">{{ page.header.caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>

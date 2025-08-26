@@ -4,7 +4,10 @@ site.author %} {% endif %}
 
 <div itemscope itemtype="http://schema.org/Person">
   <div class="author__avatar">
-    {% include responsive_image.html src=author.avatar alt=author.name class="author__avatar" priority=true %}
+    {% if author.avatar contains "://" %}
+    <img src="{{ author.avatar }}" alt="{{ author.name }}" />
+    {% else %} <img src="{{ author.avatar | prepend: '/images/' | prepend: base_path }}" class="author__avatar"
+      alt="{{ author.name }}"> {% endif %}
   </div>
 
   <div class="author__content">
