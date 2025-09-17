@@ -66,7 +66,7 @@
 % -----------------------------------------------------------------
 % These lengths are used for consistent vertical spacing throughout the document.
 \newlength{\headerSpacing}      % Base spacing, e.g., around section titles or major blocks
-\setlength{\headerSpacing}{0.75pt}
+\setlength{\headerSpacing}{3pt}
 
 \newlength{\entrySpacing}       % Spacing before a new entry (e.g., education, experience)
 \setlength{\entrySpacing}{0.5\headerSpacing} % Proportional to headerSpacing
@@ -105,7 +105,7 @@
 % Allows URLs to break at more characters to prevent overfull hboxes.
 \def\UrlBreaks{\do\.\do\@\do\\\do\/\do\!\do\_\do\|\do\;\do\>\do\]%
   \do\)\do\,\do\?\do\'\do+\do\=\do\#\do-\do\&}
-\def\UrlBigBreaks{\do\:\do@\do\/\do\-}
+\def\UrlBigBreaks{\do\:\do\@\do\/\do\-}
 
 % -----------------------------------------------------------------
 % General Document Layout Settings
@@ -345,6 +345,38 @@
         \end{highlightsforbulletentries}
     \end{onecolentry}
     \end{samepage}
+}
+
+% --- 5. `leadershipentry` Environment (Organization header) ---
+% Parameters:
+%   #1: Organization Name (e.g., "Student Coding Club")
+%   #2: Location (e.g., "University of Example, City, State")
+% Content: Typically followed by one or more `positionentry` environments.
+\newenvironment{leadershipentry}[2]{%
+    \begin{samepage}
+    \vspace{\entrySpacing}
+    \mbox{\textbf{#1}}% Organization in bold
+    \kern\kernSpacing\AND\kern\kernSpacing
+    \mbox{#2}% Location
+}{%
+    \end{samepage}
+}
+
+% --- 5a. `positionentry` Environment (Role within an organization) ---
+% Parameters:
+%   #1: Position Title (e.g., "President")
+%   #2: Date Range (e.g., "Sep 2020 -- May 2021")
+% Content: Bullet points for responsibilities and achievements in that role.
+\newenvironment{positionentry}[2]{%
+    \vspace{\highlightSpacing}
+    \begin{twocolentry}{#2}
+        \textit{#1} % Position Title in italics
+    \end{twocolentry}
+    \begin{onecolentry}
+        \begin{highlightsforbulletentries}
+}{%
+        \end{highlightsforbulletentries}
+    \end{onecolentry}
 }
 
 % --- 4. `skillcategory` Environment ---

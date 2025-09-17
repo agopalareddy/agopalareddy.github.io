@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.13)  21 MAY 2025 20:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.13)  17 SEP 2025 00:03
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -619,31 +619,36 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 68.
 
-Overfull \vbox (15.79778pt too high) has occurred while \output is active []
+Package hyperref Warning: Suppressing link with empty target on input line 97.
 
- [1
+
+
+[1
 
 {C:/Users/adurs/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
+Overfull \vbox (0.60997pt too high) has occurred while \output is active []
+
+
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.371 \needspace{5\baselineskip}
-                                 % Ensure this leadership entry doesn't brea... [2]
+l.353   \needspace{3\baselineskip}
+                                   % Optional - adjust based on content length [2]
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.494 \needspace{7\baselineskip}
-                                 % Ensure this project entry doesn't break a... [3]
+l.487 \section{PROJECTS}
+                         [3]
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.518 \end{document}
+l.546 \end{document}
                      [4] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 
@@ -659,15 +664,15 @@ L3 programming layer <2025-04-14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 20587 strings out of 469941
- 348934 string characters out of 5479497
- 856376 words of memory out of 5000000
+ 20589 strings out of 469941
+ 348956 string characters out of 5479497
+ 851376 words of memory out of 5000000
  47080 multiletter control sequences out of 15000+600000
- 672154 words of font info for 99 fonts, out of 8000000 for 9000
+ 672237 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,7n,131p,1087b,764s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,7n,131p,1087b,524s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/lm/lmb10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy9.pfb>
-Output written on reddy_cv.pdf (4 pages, 127687 bytes).
+Output written on reddy_cv.pdf (4 pages, 129711 bytes).
 PDF statistics:
  99 PDF objects out of 1000 (max. 8388607)
  11 named destinations out of 1000 (max. 500000)

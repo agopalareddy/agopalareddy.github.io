@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.13)  21 MAY 2025 20:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.13)  17 SEP 2025 00:46
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -581,7 +581,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 30.
 
-Overfull \hbox (15.17258pt too wide) in paragraph at lines 39--40
+Overfull \hbox (15.17258pt too wide) in paragraph at lines 44--45
  [][][]\T1/lmr/m/n/10 (-20) agopalareddy.github.io[][]
  []
 
@@ -591,17 +591,24 @@ Overfull \hbox (15.17258pt too wide) in paragraph at lines 39--40
 <Error-correction level increased from M to Q at no cost.>
 <Copying the QR code for "https://agopalareddy.github.io" in version 3-Q as previously calculated.>
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 113.
+(Font)              <9> on input line 118.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 113.
-
-Overfull \vbox (7.9386pt too high) has occurred while \output is active []
-
+(Font)              <6> on input line 118.
 
 
 [1
 
-{C:/Users/adurs/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}] 
+{C:/Users/adurs/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
+Overfull \vbox (5.0837pt too high) has occurred while \output is active []
+
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.289 \end{document}
+                     [2] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 
 Package lastpage Warning: \@currentHpage is
@@ -616,17 +623,17 @@ L3 programming layer <2025-04-14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 19167 strings out of 469941
- 321840 string characters out of 5479497
- 831259 words of memory out of 5000000
- 45683 multiletter control sequences out of 15000+600000
- 671739 words of font info for 94 fonts, out of 8000000 for 9000
+ 19190 strings out of 469941
+ 322201 string characters out of 5479497
+ 823450 words of memory out of 5000000
+ 45692 multiletter control sequences out of 15000+600000
+ 672284 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,7n,93p,1095b,464s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,7n,93p,1095b,491s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/lm/lmb10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy9.pfb>
-Output written on reddy_resume.pdf (1 page, 104101 bytes).
+Output written on reddy_resume.pdf (2 pages, 117595 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 500000)
- 24617 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 76 PDF objects out of 1000 (max. 8388607)
+ 9 named destinations out of 1000 (max. 500000)
+ 24633 words of extra memory for PDF output out of 24883 (max. 10000000)
 
