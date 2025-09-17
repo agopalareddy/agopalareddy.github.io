@@ -6,20 +6,24 @@ author_profile: true
 redirect_from:
   - /about/
   - /about.html
-last_modified_at: 2024-09-05 22:47:43
+last_modified_at: 2025-09-17 00:00:00
 ---
 
 ## Hello, I'm Aadarsha
 
-I am a Master of Science in Computer Science student at [Washington University in St. Louis (WashU)](https://www.washu.edu/), with a focus on artificial intelligence and machine learning, particularly in neuroscience applications. My research interests combine cutting-edge AI techniques with practical applications in healthcare and cognitive science.
+I am a Master of Science in Computer Science student at [Washington University in St. Louis (WashU)](https://www.washu.edu/), focusing on artificial intelligence and machine learning for health and neuroscience applications. My current thesis explores domain-adversarial learning to build a vehicle-agnostic driving signature for early detection of preclinical Alzheimer's disease.
 
 ### Current Work
 
-As a Graduate Assistant at the Taylor Family Center for Student Success at WashU, I lead initiatives for first-generation and low-income student success through data-driven program planning and assessment. I coordinate events, lead marketing initiatives, track student metrics, and support alumni engagement through newsletter development and database management.
+- Master's Thesis (DRIVES Project, WashU): Implementing a Domain Adversarial Neural Network (DANN) to improve cross-domain generalization of driving-behavior models for Alzheimer's diagnosis.
+- Leadership: Vice President of the Graduate-Professional Council (GPC) Chamber, Graduate and Professional Student Council (GPSC); Constitution Committee Chair.
+- Community: Treasurer, Umang (Indian Graduate Student Association); Member, Association of Graduate Engineering Students (AGES).
 
 ### Previous Work
 
-Previously, as a Data Analyst Intern at [Lab714](https://www.lab714.com/), I engineered software solutions for proprietary IoT devices, extracting actionable insights that reduced client costs by 20%. I leveraged React.js and AWS to develop user-friendly dashboards for data visualization and interaction.
+- AI Engineer Intern, Crittero, Inc. (Summer 2025): Built a social media simulation and recommendation system. Developed a persona-based synthetic data pipeline in TypeScript and a foundational recommendation model in TensorFlow/Keras; created a Python testing CLI for reproducibility.
+- Graduate Assistant, Taylor Family Center for Student Success, WashU (Fall 2024 – Spring 2025): Led FLI student initiatives, managed marketing/newsletters, and developed data-driven assessment workflows.
+- Data Analyst Intern, [Lab714](https://www.lab714.com/) (Summer 2023 – Summer 2024): Engineered React + AWS solutions for IoT data, delivering insights that reduced client costs by 20%.
 
 ### Research & Projects
 
@@ -31,15 +35,20 @@ I have developed several innovative projects at the intersection of AI and pract
 
 - **[Interactive Storybook Application](/projects/2024-12-interactive-storybook)** built with Vue.js, Node.js, and MongoDB that features AI-powered content generation through OpenAI API integration, enabling dynamic story text and contextual image generation based on user choices.
 
+- **[Socket.IO Multi-Room Chat Application](/projects/2024-11-socketio-chat-app)** featuring password-protected rooms, private messaging, and moderation with real-time event-based communication.
+
+- **[PHP Calendar Application](/projects/2024-11-php-calendar-app)** with secure authentication, CSRF protection, and an interactive event management interface.
+
 - **Artificial Intelligence in Gaming**, where I implemented alpha-beta pruning algorithms for [Connect 4](/projects/2022-11-connect-4-ai) (achieving 100% wins against baseline AI) and created a custom evaluation function for the [Lost Cities](/projects/2022-07-artificial-intelligence-in-modern-board-games) card game (winning 73% of games against baseline).
 
 ### Technical Expertise
 
-I have extensive experience with:
-- **Programming Languages**: Java, C++, Python, R, JavaScript/TypeScript, PHP, SQL, Rust
-- **Frameworks & Libraries**: TensorFlow, PyTorch, Scikit-learn, NumPy, Pandas, Node.js, Vue.js, React, Socket\.IO
-- **Tools & Technologies**: Git, Tableau, Power BI, AWS, MongoDB, MySQL
-- **Core Competencies**: Machine Learning, Deep Reinforcement Learning, Data Analysis, Web Development, Problem Solving
+ I have extensive experience with:
+
+- **Programming Languages**: Java, C++, Python, R, JavaScript/TypeScript, PHP, C#, SQL, Rust
+- **Frameworks & Libraries**: TensorFlow, PyTorch, Scikit-learn, NumPy, Pandas, Node.js, Vue.js, React, Socket.IO, OpenAI/Gemini APIs
+- **Tools & Technologies**: Git, Tableau, Power BI, AWS, MongoDB, MySQL, Microsoft 365, Google Workspace
+- **Core Competencies**: Machine Learning, Deep Reinforcement Learning, Data Analysis, Web Development, Problem Solving, Communication, Leadership
 
 For a complete overview of my skills and experience, please check my [CV/Resume](/cv/).
 
@@ -57,12 +66,13 @@ My undergraduate research culminated in presentations at the OWU Spring Student 
 
 ### Leadership & Involvement
 
-At Washington University, I serve as:
-- McKelvey Graduate Ambassador, representing the McKelvey School of Engineering and engaging with prospective students through outreach and mentorship
-- Member of the Graduate and Professional Student Council (GPSC), contributing to constitutional review and policy development
-  - Representative to the Graduate Professional Council Chamber (GPC) for McKelvey Engineering
-- Member of the Association of Graduate Engineering Students (AGES), organizing networking events and professional development opportunities
-- Treasurer for HackWashU, managing finances, sponsorship outreach, and event planning
+ At Washington University, I serve as:
+
+- Vice President of the Graduate-Professional Council (GPC) Chamber, GPSC (Summer 2025 – Present) and Constitution Committee Chair
+- Treasurer, Umang (Indian Graduate Student Association) (Summer 2025 – Present)
+- Member, Association of Graduate Engineering Students (AGES) (Fall 2024 – Present)
+- Former McKelvey School of Engineering representative to the GPC Chamber and member of the Membership/Constitution/Outreach Committee (Fall 2024 – Spring 2025)
+- Former Treasurer, HackWashU (Fall 2024 – Summer 2025)
 
 These roles reflect my commitment to community building and professional development beyond technical work.
 
@@ -70,4 +80,4 @@ These roles reflect my commitment to community building and professional develop
 
 I am passionate about leveraging data science and AI to solve meaningful problems in healthcare and society. My research in [Alzheimer's detection](/projects/2024-12-multimodal-alzheimers) and [datacenter optimization](/projects/2024-12-datacenter-cooling) demonstrates my commitment to applying AI for social good. As a strong communicator and mentor, I value collaboration and knowledge-sharing within the tech community.
 
-I am actively seeking opportunities to collaborate on innovative [projects](/projects/) or discuss emerging trends in AI and data science. Feel free to [reach out](mailto:a.gopalareddy@wustl.edu) if you're interested in connecting!
+ I am actively seeking opportunities to collaborate on innovative [projects](/projects/) or discuss emerging trends in AI and data science. Feel free to [reach out](mailto:a.gopalareddy@wustl.edu) if you're interested in connecting!
