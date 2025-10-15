@@ -15,3 +15,8 @@ Thumbs.db
 
 # Notebooks
 .ipynb_checkpoints/
+
+*.log
+*.synctex*
+*.toc
+*.aux
