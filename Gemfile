@@ -33,6 +33,6 @@ group :jekyll_plugins do
   gem 'jekyll-last-modified-at'
 end
 
-gem "webrick", "~> 1.8"
+gem "webrick", "~> 1.9"
 
 gem "faraday-retry", "~> 2.2"
