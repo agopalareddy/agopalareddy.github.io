@@ -1,8 +1,8 @@
 ---
-date: 2025-12-01
+date: 2025-08-01
 title: "VLM Security: Red Team Attacks and Defenses for Vision Language Models"
 collection: projects
-permalink: /projects/2025-12-vlm-security
+permalink: /projects/2025-08-vlm-security
 excerpt: "Explored adversarial attacks and defenses for Vision Language Models (VLMs), implementing red team attack strategies and defense mechanisms using OpenAI and Anthropic APIs."
 venue: "Washington University in St. Louis"
 last_modified_at: 2025-12-02 00:00:00

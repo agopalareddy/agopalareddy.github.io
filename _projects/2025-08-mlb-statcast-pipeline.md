@@ -1,8 +1,8 @@
 ---
-date: 2025-12-01
+date: 2025-08-01
 title: "MLB Statcast Real-Time Data Pipeline"
 collection: projects
-permalink: /projects/2025-12-mlb-statcast-pipeline
+permalink: /projects/2025-08-mlb-statcast-pipeline
 excerpt: "Built a real-time data pipeline for MLB pitch data using Apache Airflow, Snowflake, and Kafka, with an interactive Streamlit dashboard for pitch analysis and visualization."
 venue: "Washington University in St. Louis"
 last_modified_at: 2025-12-02 00:00:00
