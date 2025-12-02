@@ -1,8 +1,8 @@
 ---
-date: 2025-05-01
+date: 2025-07-01
 title: "Bayesian Optimization for Material and Product Optimization"
 collection: projects
-permalink: /projects/2025-05-bayesian-optimization
+permalink: /projects/2025-07-bayesian-optimization
 excerpt: "Applied Bayesian optimization techniques for hyperparameter tuning and feature optimization across superconductivity, concrete strength, and wine quality prediction problems."
 venue: "Personal Project"
 last_modified_at: 2025-12-02 00:00:00
